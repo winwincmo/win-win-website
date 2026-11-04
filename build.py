@@ -46,6 +46,7 @@ def render(rel,template,**kwargs):
     target.write_text(output,encoding='utf-8')
 render('index.html','home.html',latest=articles[:3])
 render('blog/index.html','blog.html')
+render('faq/index.html','faq.html')
 for a in articles: render(f"blog/{a['slug']}/index.html",'article.html',article=a)
 render('404.html','404.html')
 # RSS: content summary, permalinks, with proper XML escaping.
