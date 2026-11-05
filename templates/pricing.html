@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}Fractional CMO Pricing | Win-Win{% endblock %}
+{% block description %}Win-Win fractional CMO pricing: $2,500 monthly for 4 hours weekly or $5,000 for 8 hours. Compare leadership investment scenarios with a full-time marketing manager.{% endblock %}
+{% block content %}
+<style>
+.ww-price{color:#18273f}.ww-price *{box-sizing:border-box}.ww-price h1,.ww-price h2,.ww-price h3{font-family:Manrope,sans-serif}.ww-price em{font-style:normal;color:#9470c4}
+.ww-price .pk{display:block;color:#ab8136;letter-spacing:2px;font-weight:800;font-size:11px;margin:0 0 24px}
+.ww-price .hero-pr{background:#faf8f2;padding:84px 0 88px}.ww-price .hero-pr h1{max-width:1010px;font-size:clamp(42px,5.5vw,72px);letter-spacing:-.052em;line-height:1.13;margin:0 0 26px}
+.ww-price .lead-pr{max-width:840px;color:#606c7a;font-size:18px;line-height:1.78;margin:0}
+.ww-price .plan-section{background:#eae3f4;padding:84px 0 90px}.ww-price .plan-section h2,.ww-price .scenarios h2,.ww-price .fine-print h2{font-size:clamp(31px,4vw,50px);letter-spacing:-2px;line-height:1.2;margin:0 0 20px}
+.ww-price .section-intro{font-size:16px;color:#606c7a;line-height:1.8;max-width:870px;margin:0 0 32px}
+.ww-price .price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.ww-price .plan{display:flex;flex-direction:column;background:white;border-radius:17px;padding:31px;min-width:0}.ww-price .plan.featured{outline:2px solid #9470c4}
+.ww-price .plan-label{font-size:11px;font-weight:800;letter-spacing:1.5px;color:#9470c4;margin-bottom:20px}
+.ww-price .plan h3{font-size:23px;line-height:1.3;letter-spacing:-.85px;margin:0 0 15px}
+.ww-price .price{font-family:Manrope,sans-serif;font-weight:800;font-size:clamp(32px,3.1vw,44px);letter-spacing:-1.5px;line-height:1.2;margin:0}.ww-price .price.custom{font-size:34px}
+.ww-price .per{font-size:13px;color:#606c7a;margin:4px 0 13px}
+.ww-price .hours{font-weight:800;font-size:15px;margin:0 0 17px}
+.ww-price .plan-copy{font-size:14px;line-height:1.8;color:#606c7a;margin:0 0 17px}
+.ww-price .plan ul{list-style:none;padding:0;margin:0 0 27px}.ww-price .plan li{position:relative;padding-left:25px;font-size:14px;line-height:1.7;margin:0 0 11px;color:#47566a}.ww-price .plan li:before{content:"✓";position:absolute;left:0;font-weight:900;color:#9470c4}
+.ww-price .plan a{display:block;margin-top:auto;padding:15px 16px;border-radius:28px;background:#18273f;color:white;text-align:center;text-decoration:none;font-size:13px;font-weight:800}.ww-price .plan.featured a{background:#f2bf58;color:#18273f}
+.ww-price .small-note{font-size:13px;color:#606c7a;line-height:1.8;max-width:960px;margin:24px 0 0}
+.ww-price .scenarios{background:#faf8f2;padding:88px 0 92px}.ww-price .scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:1080px}
+.ww-price .scenario{background:white;border:1px solid #e3dfe8;border-radius:17px;padding:30px}
+.ww-price .scenario h3{font-size:23px;letter-spacing:-.8px;margin:0 0 20px}
+.ww-price .scenario-line{display:flex;align-items:center;gap:17px;padding:17px 0;border-top:1px solid #e9e5eb}
+.ww-price .scenario-line > div{flex:1;min-width:0}.ww-price .scenario-line strong{display:block;font-size:15px;line-height:1.5}.ww-price .scenario-line p{font-size:12px;color:#606c7a;line-height:1.65;margin:3px 0 0}
+.ww-price .scenario-price{font-weight:800;font-family:Manrope,sans-serif;font-size:24px;letter-spacing:-.6px;white-space:nowrap}
+.ww-price .human-icon{width:38px;height:48px;flex:0 0 38px;display:block}
+.ww-price .scenario-foot{font-size:13px;color:#606c7a;line-height:1.8;margin:21px 0 0;max-width:900px}
+.ww-price .scenario-foot a,.ww-price .fine-print a{color:#71549a;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.ww-price .fine-print{background:#fff;padding:76px 0}.ww-price .info-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:55px}
+.ww-price .fine-print h3{font-size:21px;margin:0 0 12px}.ww-price .fine-print p,.ww-price .fine-print li{font-size:16px;line-height:1.8;color:#606c7a}.ww-price .fine-print li{margin:0 0 10px}.ww-price .fine-print ul{padding-left:22px}
+.ww-price .cta-pr{background:#18273f;padding:70px 0;color:white}.ww-price .cta-inner{display:flex;align-items:center;justify-content:space-between;gap:25px}.ww-price .cta-pr h2{font-size:clamp(29px,3.5vw,44px);letter-spacing:-1.6px;margin:0 0 12px}.ww-price .cta-pr p{font-size:16px;line-height:1.8;color:#cbd0df;margin:0}
+.ww-price .book-pr{display:inline-block;background:#f2bf58;color:#18273f;text-decoration:none;padding:17px 25px;border-radius:30px;font-weight:800;font-size:13px;white-space:nowrap}
+@media(max-width:900px){.ww-price .price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ww-price .price-grid .plan:last-child{grid-column:1/-1}}
+@media(max-width:760px){.ww-price .hero-pr,.ww-price .plan-section,.ww-price .scenarios,.ww-price .fine-print,.ww-price .cta-pr{padding:57px 0}.ww-price .price-grid,.ww-price .scenario-grid,.ww-price .info-grid{grid-template-columns:1fr;gap:20px}.ww-price .price-grid .plan:last-child{grid-column:auto}.ww-price .plan,.ww-price .scenario{padding:25px}.ww-price .cta-inner{flex-direction:column;align-items:flex-start}}
+</style>
+{% macro person(fractional=false) -%}
+<svg class="human-icon" viewBox="0 0 42 55" aria-hidden="true" fill="none" stroke="#18273f" stroke-width="2.3" stroke-linejoin="round">
+<defs><clipPath id="person-half-{{ 'fraction' if fractional else 'full' }}"><rect x="0" y="0" width="{{ 21 if fractional else 42 }}" height="55"/></clipPath></defs>
+<circle cx="21" cy="11" r="9" fill="#eae3f4"/>
+<path d="M10 24h22c5 0 8 4 8 9v11H30v9H12v-9H2V33c0-5 3-9 8-9Z" fill="#eae3f4"/>
+<g clip-path="url(#person-half-{{ 'fraction' if fractional else 'full' }})"><circle cx="21" cy="11" r="9" fill="{{ '#9470c4' if fractional else '#f2bf58' }}" stroke="none"/><path d="M10 24h22c5 0 8 4 8 9v11H30v9H12v-9H2V33c0-5 3-9 8-9Z" fill="{{ '#9470c4' if fractional else '#f2bf58' }}" stroke="none"/></g>
+</svg>
+{%- endmacro %}
+<div class="ww-price">
+<section class="hero-pr"><div class="shell"><span class="pk">SIMPLE, TRANSPARENT PRICING</span><h1>The right level of leadership <em>for your stage of growth.</em></h1><p class="lead-pr">Fractional marketing leadership built around B2B sales. Choose the level of weekly involvement that fits your business, then invest in the marketing programs that support how you win customers.</p></div></section>
+<section class="plan-section"><div class="shell">
+<span class="pk">MONTHLY LEADERSHIP OPTIONS</span><h2>Experienced leadership. <em>Flexible commitment.</em></h2>
+<p class="section-intro">Both published plans provide experienced marketing direction. The level of participation and specific deliverables are defined together, based on your priorities and approved scope.</p>
+<div class="price-grid">
+<article class="plan"><span class="plan-label">ESSENTIAL</span><h3>Strategic Leadership</h3><p class="price">$2,500</p><p class="per">per month</p><p class="hours">4 hours per week</p><p class="plan-copy">For businesses that need senior guidance and a focused marketing agenda.</p><ul><li>Marketing assessment and priorities</li><li>Strategy and budget guidance</li><li>B2B sales alignment</li><li>Leadership check-ins and progress reviews</li></ul><a href="https://calendar.app.google/KFmiJUCEcmPKtgGw7">Discuss Essential</a></article>
+<article class="plan featured"><span class="plan-label">GROWTH</span><h3>Active Marketing Leadership</h3><p class="price">$5,000</p><p class="per">per month</p><p class="hours">8 hours per week</p><p class="plan-copy">For businesses needing more active oversight across marketing initiatives and execution resources.</p><ul><li>Everything in Essential</li><li>More hands-on initiative coordination</li><li>Greater capacity for team and partner oversight</li><li>More involvement in AI-supported workflows</li></ul><a href="https://calendar.app.google/KFmiJUCEcmPKtgGw7">Discuss Growth</a></article>
+<article class="plan"><span class="plan-label">CUSTOM</span><h3>Embedded Fractional CMO</h3><p class="price custom">Let's scope it.</p><p class="per">custom monthly engagement</p><p class="hours">Agreed weekly commitment</p><p class="plan-copy">For more complex marketing functions or businesses managing several initiatives at once.</p><ul><li>Customized leadership availability</li><li>Coordination across teams and partners</li><li>Agreed responsibilities and reporting</li><li>Defined AI and execution support</li></ul><a href="https://calendar.app.google/KFmiJUCEcmPKtgGw7">Discuss a Custom Plan</a></article>
+</div>
+<p class="small-note">Pricing covers the agreed fractional leadership scope. Advertising, events, additional specialists, tools, and other marketing investments are budgeted separately as appropriate. The four- and eight-hour commitments describe weekly availability, not guaranteed production volume.</p>
+</div></section>
+<section class="scenarios"><div class="shell">
+<span class="pk">INVESTMENT SCENARIOS</span><h2>What does fractional leadership <em>look like next to a full-time hire?</em></h2>
+<p class="section-intro">These examples compare annual leadership fees with the U.S. median salary for a full-time marketing manager. The full-person icon represents a typical full-time position; the partially filled icon represents a fractional commitment. They do not imply equivalent hours, output, or seniority.</p>
+<div class="scenario-grid">
+<article class="scenario"><h3>Essential vs. full-time</h3>
+<div class="scenario-line">{{ person(true) }}<div><strong>Win-Win Essential</strong><p>4 hours weekly · fractional leadership</p></div><span class="scenario-price">$30,000</span></div>
+<div class="scenario-line">{{ person(false) }}<div><strong>Full-time marketing manager</strong><p>Approximately 40 hours weekly · median salary</p></div><span class="scenario-price">$166,790</span></div>
+</article>
+<article class="scenario"><h3>Growth vs. full-time</h3>
+<div class="scenario-line">{{ person(true) }}<div><strong>Win-Win Growth</strong><p>8 hours weekly · fractional leadership</p></div><span class="scenario-price">$60,000</span></div>
+<div class="scenario-line">{{ person(false) }}<div><strong>Full-time marketing manager</strong><p>Approximately 40 hours weekly · median salary</p></div><span class="scenario-price">$166,790</span></div>
+</article>
+</div>
+<p class="scenario-foot">Annualized Win-Win fees assume 12 monthly payments. Full-time benchmark: <a href="https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm" rel="noopener noreferrer">U.S. Bureau of Labor Statistics, median annual marketing manager salary, May 2025</a>. Salary excludes employer-paid benefits, recruiting costs, and other employment overhead. The half-filled figure is a visual shorthand for fractional involvement, not a claim of 0.5 full-time equivalent. Actual working hours, responsibilities, and access differ substantially.</p>
+</div></section>
+<section class="fine-print"><div class="shell info-grid">
+<div><span class="pk">WHAT YOU'RE INVESTING IN</span><h2>Leadership that <em>supports your sales motion.</em></h2><p>Your fractional CMO assesses the existing program, sets priorities with leadership, develops or strengthens the strategy, and directs approved marketing work. We use specialized AI agents and workflows where appropriate to extend the team's capabilities.</p><p>Read more about our <a href="/services/">Services</a> and <a href="/approach/">Approach</a>.</p></div>
+<div><h3>Keep the budget clear.</h3><ul><li>The monthly fee covers agreed fractional leadership and in-scope services.</li><li>Paid media, trade shows, marketing production, and other program expenses sit in a separately approved budget.</li><li>Any additional technology, AI-platform costs, or specialist work are confirmed when scoping the engagement.</li><li>Quarterly reviews keep spending and marketing priorities connected to business goals.</li></ul></div>
+</div></section>
+<section class="cta-pr"><div class="shell cta-inner"><div><span class="pk">THE NEXT STEP</span><h2>Let's talk about the right fit.</h2><p>A 15-minute conversation is a good place to begin.</p></div><a class="book-pr" href="https://calendar.app.google/KFmiJUCEcmPKtgGw7">Book a 15 min call</a></div></section>
+</div>
+{% endblock %}
