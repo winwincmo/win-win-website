@@ -1,44 +1,325 @@
-{% extends "base.html" %} {% block content %}
-OUR APPROACH
-Marketing built around how you win business.
-A fractional CMO becomes your strategic marketing leader, working alongside your CEO and sales team to develop an approved plan, guide marketing investment, and oversee execution. Here is what working together looks like.
-HOW FRACTIONAL CMO WORKS
-A marketing leader supporting your sales motion for the price of an intern.
-A fractional CMO gives your business experienced marketing leadership without the cost of a full-time executive. We begin with a structured onboarding period, establish an agreed direction, and manage the work through a consistent operating rhythm.
-YOUR FIRST WEEKS WITH WIN-WIN
-01 / DUE DILIGENCE & ONBOARDING
-Weeks 1â€“2
-Audit your sales and marketing engine.
-We examine how your business generates and converts opportunities, then assess your marketing strategy, performance, technology, team capabilities, and current spending. You receive a clear assessment of strengths, gaps, and immediate priorities.
-02 / STRATEGY & FOUNDATIONS
-Weeks 3â€“4
-Build a CEO-approved marketing strategy.
-We strengthen your existing strategy or develop what is missing, including positioning, priority audiences, messaging, and a practical marketing roadmap. We align marketing priorities with your sales motion and secure CEO approval before major investments move forward.
-03 / BUDGET & ACTIVATION
-Weeks 4â€“6
-Set the marketing budget and priorities.
-We establish an annual marketing budget covering advertising, trade shows, sales materials, signage, event marketing, and other approved initiatives. These costs sit outside the fractional CMO fee. With budgets and priorities agreed, we coordinate the resources and work needed to execute.
-04 / ONGOING LEADERSHIP
-Week 6 onward
-Lead execution and measure progress.
-Your fractional CMO oversees approved work and meets with you weekly to review progress, address obstacles, and make decisions. Every quarter, we evaluate results against goals, review spending, and adjust the plan for the months ahead.
-Typical timing shown. The schedule may vary based on the condition of existing strategy, team readiness, and business complexity.
-THE HUMAN + AI ADVANTAGE
-Senior thinking. Smarter execution.
-Good marketing still depends on judgment. Someone needs to understand the business, recognize what matters, and make decisions about where to invest.
-That's the role of your fractional marketing leader. AI-powered agents and workflows extend the team's capacity to do the work, while people remain accountable for strategy, quality, and the customer experience.
-Your fractional CMO remains accountable for marketing direction and the agreed scope of work. Marketing investments such as advertising, trade shows, event costs, and printed materials are planned and approved separately from the leadership fee.
-WHAT GUIDES THE WORK
-Built for real businesses. Designed to fit.
-Sales comes first.
-Marketing should make it easier to start conversations, build confidence, and support the people responsible for revenue.
-Leadership stays involved.
-You work with someone who can think strategically, set priorities, and take responsibility for the direction of the work.
-Execution matches the need.
-We use specialized capacity where it makes sense rather than adding unnecessary layers or overhead.
-Progress stays visible.
-We focus on practical measures, useful feedback, and decisions that keep marketing connected to business outcomes.
-Let's talk about your growth plans.
-Start with a complimentary 15-minute conversation.
-Book a Free Call
+
+{% extends "base.html" %}
+{% block content %}
+
+<style>
+.approach-page {
+  color: #18273f;
+}
+.approach-page .ap-hero {
+  background: #faf8f2;
+  padding: 85px 0 95px;
+}
+.approach-page .ap-label {
+  display: block;
+  color: #b0873a;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2.2px;
+  margin-bottom: 26px;
+}
+.approach-page h1,
+.approach-page h2,
+.approach-page h3 {
+  font-family: 'Manrope', sans-serif;
+}
+.approach-page .ap-hero h1 {
+  font-size: clamp(42px, 5.5vw, 75px);
+  line-height: 1.13;
+  letter-spacing: -3.7px;
+  max-width: 1100px;
+  margin: 0 0 32px;
+}
+.approach-page em {
+  font-style: normal;
+  color: #9470c4;
+}
+.approach-page .ap-lead {
+  color: #606c7a;
+  font-size: 19px;
+  line-height: 1.85;
+  max-width: 850px;
+}
+.approach-page .ap-navy {
+  background: #18273f;
+  color: #fff;
+  padding: 85px 0;
+}
+.approach-page .ap-navy h2 {
+  font-size: clamp(33px, 4vw, 54px);
+  line-height: 1.2;
+  letter-spacing: -2.5px;
+  max-width: 1050px;
+  margin: 0 0 26px;
+}
+.approach-page .ap-navy em {
+  color: #c9aaf3;
+}
+.approach-page .ap-navy p {
+  max-width: 850px;
+  color: #cbd0df;
+  font-size: 18px;
+  line-height: 1.85;
+}
+.approach-page .ap-process {
+  background: #eae3f4;
+  padding: 95px 0;
+}
+.approach-page .ap-process h2 {
+  font-size: clamp(32px, 4vw, 49px);
+  line-height: 1.2;
+  letter-spacing: -2px;
+  margin: 0 0 40px;
+}
+.approach-page .ap-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+.approach-page .ap-card {
+  background: white;
+  border-radius: 17px;
+  padding: 34px;
+}
+.approach-page .ap-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+.approach-page .ap-number {
+  color: #9470c4;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+.approach-page .ap-time {
+  background: #f2edf8;
+  color: #70548e;
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.approach-page .ap-card h3 {
+  font-size: 23px;
+  letter-spacing: -1px;
+  line-height: 1.35;
+  margin: 0 0 17px;
+}
+.approach-page .ap-card p {
+  color: #606c7a;
+  font-size: 15px;
+  line-height: 1.85;
+  margin-bottom: 0;
+}
+.approach-page .ap-note {
+  color: #606078;
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 25px 0 0;
+}
+.approach-page .ap-details {
+  background: #faf8f2;
+  padding: 95px 0;
+}
+.approach-page .ap-details h2 {
+  font-size: clamp(33px, 4vw, 50px);
+  letter-spacing: -2px;
+  margin: 0 0 25px;
+}
+.approach-page .ap-details > .shell > p {
+  max-width: 880px;
+  color: #606c7a;
+  font-size: 17px;
+  line-height: 1.85;
+}
+.approach-page .ap-principles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 45px;
+}
+.approach-page .ap-principle {
+  border-top: 2px solid #d8c9ea;
+  padding-top: 22px;
+}
+.approach-page .ap-principle h3 {
+  font-size: 19px;
+  margin: 0 0 12px;
+}
+.approach-page .ap-principle p {
+  color: #606c7a;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.approach-page .ap-cta {
+  background: #18273f;
+  color: white;
+  padding: 75px 0;
+}
+.approach-page .ap-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+.approach-page .ap-cta h2 {
+  font-size: clamp(29px, 3.5vw, 44px);
+  letter-spacing: -1.6px;
+  margin: 0 0 12px;
+}
+.approach-page .ap-cta p {
+  color: #cbd0df;
+  font-size: 16px;
+  margin: 0;
+}
+.approach-page .ap-book {
+  display: inline-block;
+  background: #f2bf58;
+  color: #18273f;
+  padding: 17px 25px;
+  border-radius: 40px;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@media (max-width: 760px) {
+  .approach-page .ap-hero,
+  .approach-page .ap-navy,
+  .approach-page .ap-process,
+  .approach-page .ap-details {
+    padding: 60px 0;
+  }
+  .approach-page .ap-hero h1 {
+    letter-spacing: -2px;
+  }
+  .approach-page .ap-grid,
+  .approach-page .ap-principles {
+    grid-template-columns: 1fr;
+  }
+  .approach-page .ap-card {
+    padding: 25px;
+  }
+  .approach-page .ap-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .approach-page .ap-cta {
+    padding: 55px 0;
+  }
+}
+</style>
+
+<main class="approach-page">
+
+  <section class="ap-hero">
+    <div class="shell">
+      <span class="ap-label">OUR APPROACH</span>
+      <h1>Marketing built around <em>how you win business.</em></h1>
+      <p class="ap-lead">A fractional CMO becomes your strategic marketing leader, working alongside your CEO and sales team to develop an approved plan, guide marketing investment, and oversee execution. Here is what working together looks like.</p>
+    </div>
+  </section>
+
+  <section class="ap-navy">
+    <div class="shell">
+      <span class="ap-label">HOW FRACTIONAL CMO WORKS</span>
+      <h2>A marketing leader supporting your sales motion <em>for the price of an intern.</em></h2>
+      <p>A fractional CMO gives your business experienced marketing leadership without the cost of a full-time executive. We begin with a structured onboarding period, establish an agreed direction, and manage the work through a consistent operating rhythm.</p>
+    </div>
+  </section>
+
+  <section class="ap-process">
+    <div class="shell">
+      <span class="ap-label">YOUR FIRST WEEKS WITH WIN-WIN</span>
+      <h2>Here's how we get to work.</h2>
+
+      <div class="ap-grid">
+
+        <article class="ap-card">
+          <div class="ap-card-top">
+            <span class="ap-number">01 / DUE DILIGENCE &amp; ONBOARDING</span>
+            <span class="ap-time">Weeks 1–2</span>
+          </div>
+          <h3>Audit your sales and marketing engine.</h3>
+          <p>We examine how your business generates and converts opportunities, then assess your marketing strategy, performance, technology, team capabilities, and current spending. You receive a clear assessment of strengths, gaps, and immediate priorities.</p>
+        </article>
+
+        <article class="ap-card">
+          <div class="ap-card-top">
+            <span class="ap-number">02 / STRATEGY &amp; FOUNDATIONS</span>
+            <span class="ap-time">Weeks 3–4</span>
+          </div>
+          <h3>Build a CEO-approved marketing strategy.</h3>
+          <p>We strengthen your existing strategy or develop what is missing, including positioning, priority audiences, messaging, and a practical marketing roadmap. We align marketing priorities with your sales motion and secure CEO approval before major investments move forward.</p>
+        </article>
+
+        <article class="ap-card">
+          <div class="ap-card-top">
+            <span class="ap-number">03 / BUDGET &amp; ACTIVATION</span>
+            <span class="ap-time">Weeks 4–6</span>
+          </div>
+          <h3>Set the marketing budget and priorities.</h3>
+          <p>We establish an annual marketing budget covering advertising, trade shows, sales materials, signage, event marketing, and other approved initiatives. These costs sit outside the fractional CMO fee. With budgets and priorities agreed, we coordinate the resources and work needed to execute.</p>
+        </article>
+
+        <article class="ap-card">
+          <div class="ap-card-top">
+            <span class="ap-number">04 / ONGOING LEADERSHIP</span>
+            <span class="ap-time">Week 6 onward</span>
+          </div>
+          <h3>Lead execution and measure progress.</h3>
+          <p>Your fractional CMO oversees approved work and meets with you weekly to review progress, address obstacles, and make decisions. Every quarter, we evaluate results against goals, review spending, and adjust the plan for the months ahead.</p>
+        </article>
+
+      </div>
+
+      <p class="ap-note">Typical timing shown. The schedule may vary based on the condition of the existing strategy, team readiness, and business complexity.</p>
+    </div>
+  </section>
+
+  <section class="ap-details">
+    <div class="shell">
+      <span class="ap-label">THE HUMAN + AI ADVANTAGE</span>
+      <h2>Senior thinking. <em>Smarter execution.</em></h2>
+      <p>Good marketing still depends on judgment. Someone needs to understand the business, recognize what matters, and make decisions about where to invest. That's the role of your fractional marketing leader.</p>
+      <p>AI-powered agents and workflows extend the team's capacity to do the work, while people remain accountable for strategy, quality, and the customer experience.</p>
+
+      <div class="ap-principles">
+        <div class="ap-principle">
+          <h3>Built for real businesses.</h3>
+          <p>Designed to fit your business, your customers, and your existing sales process.</p>
+        </div>
+        <div class="ap-principle">
+          <h3>Leadership stays involved.</h3>
+          <p>You work with an experienced marketing leader who owns priorities and direction.</p>
+        </div>
+        <div class="ap-principle">
+          <h3>Execution matches the need.</h3>
+          <p>We use specialized capacity where it makes sense, without unnecessary overhead.</p>
+        </div>
+        <div class="ap-principle">
+          <h3>Progress stays visible.</h3>
+          <p>Weekly check-ins and quarterly reviews keep decisions connected to business outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ap-cta">
+    <div class="shell ap-cta-inner">
+      <div>
+        <span class="ap-label">THE NEXT STEP</span>
+        <h2>Let's talk about your growth plans.</h2>
+        <p>Start with a complimentary 15-minute conversation.</p>
+      </div>
+      <a class="ap-book" href="https://calendar.app.google/KFmiJUCEcmPKtgGw7">Book a Free Call</a>
+    </div>
+  </section>
+
+</main>
+
 {% endblock %}
