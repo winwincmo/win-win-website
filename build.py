@@ -47,6 +47,7 @@ def render(rel,template,**kwargs):
 render('index.html','home.html',latest=articles[:3])
 render('blog/index.html','blog.html')
 render('faq/index.html','faq.html')
+render('approach/index.html','approach.html')
 for a in articles: render(f"blog/{a['slug']}/index.html",'article.html',article=a)
 render('404.html','404.html')
 # RSS: content summary, permalinks, with proper XML escaping.
