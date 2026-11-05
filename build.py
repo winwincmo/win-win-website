@@ -48,6 +48,7 @@ render('index.html','home.html',latest=articles[:3])
 render('blog/index.html','blog.html')
 render('faq/index.html','faq.html')
 render('approach/index.html','approach.html')
+render('services/index.html','services.html')
 for a in articles: render(f"blog/{a['slug']}/index.html",'article.html',article=a)
 render('404.html','404.html')
 # RSS: content summary, permalinks, with proper XML escaping.
@@ -60,6 +61,6 @@ for a in articles:
 rss+=['</channel></rss>']
 (OUT/'feed.xml').write_text('\n'.join(rss),encoding='utf-8')
 (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {site["url"]}/sitemap.xml\n')
-links=['/','/approach/','/blog/','/faq/']+[a['url'] for a in articles]
+links=['/','/approach/','/services/','/blog/','/faq/']+[a['url'] for a in articles]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{html.escape(site["url"]+u)}</loc></url>' for u in links)+'</urlset>')
 print(f'Built {len(articles)} articles in {OUT}')
