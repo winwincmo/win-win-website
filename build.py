@@ -59,6 +59,6 @@ for a in articles:
 rss+=['</channel></rss>']
 (OUT/'feed.xml').write_text('\n'.join(rss),encoding='utf-8')
 (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {site["url"]}/sitemap.xml\n')
-links=['/','/blog/']+[a['url'] for a in articles]
+links=['/','/approach/','/blog/','/faq/']+[a['url'] for a in articles]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{html.escape(site["url"]+u)}</loc></url>' for u in links)+'</urlset>')
 print(f'Built {len(articles)} articles in {OUT}')
