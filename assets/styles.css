@@ -49,3 +49,8 @@
 .prose a{color:#7952ad;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px;font-weight:700}
 .prose a:hover,.prose a:focus-visible{color:#56368a;text-decoration-thickness:2px}
 .prose a:focus-visible{outline:2px solid #9470c4;outline-offset:3px}
+
+/* Consistent interior-page hero typography */
+.blog-hero h1{font-size:clamp(42px,5.5vw,72px);line-height:1.13;letter-spacing:-.052em}
+.blog-hero p{font-size:18px;line-height:1.75}
+@media(max-width:760px){.blog-hero h1{font-size:clamp(42px,5.5vw,72px)}}
