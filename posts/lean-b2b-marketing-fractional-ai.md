@@ -16,7 +16,7 @@ For a long time, growing a B2B marketing function meant adding people. As the bu
 
 AI agents and connected workflows are making it possible to organize and carry out parts of marketing that previously demanded considerable hands-on time. For a smaller B2B company, that can mean access to more sophisticated execution capacity without immediately building a large internal department.
 
-The opportunity is compelling, although there's an important condition: Someone still needs to decide what marketing is supposed to accomplish, how it contributes to sales, and whether the work is worth the investment.
+That still leaves an important responsibility with the business: deciding what marketing should accomplish, how it contributes to sales, and whether the work is worth the investment.
 
 ## Why do growing B2B companies struggle to scale marketing?
 
@@ -36,9 +36,13 @@ The distinction between using an AI tool and building an AI-supported workflow m
 
 Asking a chatbot to draft an email or summarize a report can save time, but the employee still has to coordinate the activity around it. A workflow connects activities so information can move through a process with fewer manual handoffs. An AI agent can take on a defined part of that process, working through multiple steps within boundaries set by the business.
 
-Consider a company preparing for an industry trade show. Research into attending accounts could be organized into sales-ready briefs, existing marketing materials could be adapted for different buyer audiences, and follow-up activity could be prepared using the company's approved messaging. With the right systems and review points, much of that preparation can become repeatable rather than starting from scratch for every event.
+Consider a company preparing for an industry trade show. With the right systems and review points, agent-supported workflows could take on repeatable preparation work such as:
 
-Or consider the ongoing work of making a business discoverable to prospective buyers. A coordinated workflow might track the questions buyers are asking, identify gaps in the company's published information, assemble research for new content, and prepare drafts for an experienced person to review.
+- Researching attending accounts and organizing findings into sales-ready briefs.
+- Adapting approved marketing materials for different buyer audiences.
+- Preparing follow-up content using the company's existing messaging.
+
+The same approach can support the ongoing work of making a business discoverable to prospective buyers. A coordinated workflow might track buyer questions, identify gaps in published information, and prepare research-backed content drafts for an experienced person to review.
 
 There is good evidence that AI can improve productivity in defined kinds of knowledge work. In a [published study of 5,179 customer-support agents](https://www.nber.org/papers/w31161), researchers found an average 14% increase in issues resolved per hour after AI assistance was introduced, with larger gains among less-experienced workers. That's a customer-support setting rather than a B2B marketing department, so the figure shouldn't be treated as a forecast for marketing ROI. It does demonstrate how assistance embedded in real work can expand the capacity of a team.
 
@@ -60,7 +64,13 @@ For a business with a relationship-driven sales process, that work has to begin 
 
 I would begin with due diligence before prescribing a new technology stack or restructuring the marketing team. The first job is to understand what the business has already invested in, whether the strategy is sound, how opportunities move through sales, and where marketing work is slowing down.
 
-With that picture in place, the fractional CMO can strengthen the strategy, identify missing foundational assets, and bring a proposed direction to the CEO for approval. An annual marketing budget should distinguish the cost of leadership from program investments such as advertising, trade shows, event marketing, and sales materials.
+With that picture in place, the fractional CMO can strengthen the strategy, identify missing foundational assets, and bring a proposed direction to the CEO for approval. The annual marketing budget should also separate the leadership fee from program expenses, which might include:
+
+- Advertising and campaign media.
+- Trade shows and event marketing.
+- Sales materials, signage, and production.
+
+That distinction gives the CEO a clearer view of the cost of leading marketing and the additional investment required to carry out the plan.
 
 Only then does it make sense to determine where AI-supported workflows can expand capacity. Some activities may be appropriate for highly repeatable agent-assisted processes. Others will benefit from a specialist, an existing employee, or direct executive involvement.
 
@@ -84,7 +94,11 @@ For that reason, I would measure success in terms of what the business gains: mo
 
 Before hiring another marketing employee or subscribing to another AI platform, examine whether the company has a marketing strategy that the CEO supports and that the sales team recognizes as relevant to the way it wins business.
 
-Then look at the work being done. Which activities require experienced judgment? Which could become repeatable workflows? Where is the marketing team spending time coordinating work rather than moving the business forward?
+Then examine the work itself. A useful assessment asks:
+
+- Which decisions require experienced marketing or sales judgment?
+- Which recurring tasks could become dependable AI-supported workflows?
+- Where does the team spend too much time coordinating work instead of supporting revenue?
 
 The opportunity for growth-stage B2B businesses is to build a marketing function with the leadership needed to make sound decisions and the flexibility to execute efficiently. Fractional leadership and AI-supported workflows can be a practical way to do that, when the design begins with the business rather than the tools.
 
