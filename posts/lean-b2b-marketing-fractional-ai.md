@@ -1,7 +1,7 @@
 ---
-title: "How Can a Growing B2B Business Compete with a Leaner Marketing Team?"
+title: "How Can a Leaner Marketing Team Help a Growing B2B Business Compete?"
 date: "2026-11-05"
-excerpt: "Fractional marketing leadership and AI-supported workflows are changing what growth-stage B2B companies can accomplish without building a large permanent department."
+excerpt: "Fractional marketing leadership, AI agents, and a new model for growth."
 category: "Marketing Leadership"
 published: true
 image: "https://images.unsplash.com/photo-1758518729711-1cbacd55efdb?auto=format&fit=crop&w=1600&q=82"
