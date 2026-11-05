@@ -26,4 +26,4 @@ Then build marketing around those realities. The goal isn't to produce more acti
 
 AI agents can expand the amount of research, content production, campaign support, and analysis a lean team can manage. But the essential decisions still require experienced leadership: what matters, what fits, and what should happen next.
 
-That's the idea behind Win-Win. **Right-fit marketing, designed to support the people responsible for revenue.**
+That's the idea behind Win-Win. **Right-fit marketing, designed to support the people responsible for revenue.** For a closer look at how this approach can work with AI-supported execution, read [How Can a Growing B2B Business Compete with a Leaner Marketing Team?](/blog/lean-b2b-marketing-fractional-ai/).
