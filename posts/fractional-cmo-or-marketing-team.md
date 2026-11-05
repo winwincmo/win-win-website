@@ -4,7 +4,7 @@ date: "2026-11-05"
 category: "Marketing Leadership"
 excerpt: "Before hiring another marketer, consider whether your business needs more execution capacity or more experienced marketing leadership."
 published: true
-image: "https://images.unsplash.com/photo-1758873269035-aae0e1fd3422?auto=format&fit=crop&w=1600&q=82"
+image: "/assets/vitaly-gariev-K0aM-ztA76Q-unsplash.jpg"
 image_alt: "Colleagues collaborating around a whiteboard during a marketing strategy discussion"
 image_credit: "Vitaly Gariev / Unsplash"
 image_credit_url: "https://unsplash.com/photos/team-collaborating-around-a-whiteboard-in-a-modern-office-K0aM-ztA76Q"
