@@ -4,7 +4,7 @@ date: "2026-11-04"
 excerpt: "The best marketing plan isn't the biggest one. It's the one your sales team can use and your business can sustain."
 category: "Strategy"
 published: true
-image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=82"
+image: "/assets/working.jpeg"
 image_alt: "Colleagues reviewing notes and planning work around a table"
 image_credit: "Unsplash"
 image_credit_url: "https://unsplash.com/"
