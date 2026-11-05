@@ -4,6 +4,10 @@ date: "2026-11-02"
 excerpt: "You don't have to build a full executive team to bring experienced marketing leadership into your business."
 category: "Leadership"
 published: true
+image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=82"
+image_alt: "Business team collaborating during a strategic planning meeting"
+image_credit: "Unsplash"
+image_credit_url: "https://unsplash.com/"
 ---
 
 Not every business needs a full-time CMO. Many do need someone who can look across the brand, the customer experience, sales priorities, and marketing execution to decide what deserves attention.
