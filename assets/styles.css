@@ -54,3 +54,8 @@
 .blog-hero h1{font-size:clamp(42px,5.5vw,72px);line-height:1.13;letter-spacing:-.052em}
 .blog-hero p{font-size:18px;line-height:1.75}
 @media(max-width:760px){.blog-hero h1{font-size:clamp(42px,5.5vw,72px)}}
+
+/* Visible author credit for Win-Win insights */
+.post-byline{font-size:14px;color:#647084;margin:-9px 0 20px}
+.post-byline a{color:#7651aa;text-decoration:underline;text-underline-offset:3px;font-weight:750}
+.post-byline a:hover{color:#56368a}
