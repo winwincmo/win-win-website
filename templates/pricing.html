@@ -51,7 +51,26 @@
 .ww-price .plan-growth li:before{color:#f2bf58}
 .ww-price .plan-growth .hours{color:#fff}
 .ww-price .plan-label{margin-bottom:18px}
-.ww-price .plan-growth{overflow:visible;margin-top:13px}.ww-price .plan-recommended{position:absolute;top:-16px;right:18px;background:#f2bf58;color:#18273f;font-size:10px;letter-spacing:1.2px;font-weight:850;padding:9px 16px;border-radius:999px;box-shadow:0 4px 12px rgba(24,39,63,.14);z-index:2}@media(max-width:760px){.ww-price .plan-growth{margin-top:17px}} </style>
+.ww-price .plan-growth{overflow:visible;margin-top:13px}.ww-price .plan-recommended{position:absolute;top:-16px;right:18px;background:#f2bf58;color:#18273f;font-size:10px;letter-spacing:1.2px;font-weight:850;padding:9px 16px;border-radius:999px;box-shadow:0 4px 12px rgba(24,39,63,.14);z-index:2}@media(max-width:760px){.ww-price .plan-growth{margin-top:17px}} 
+/* Featured Growth card: elevated and bright, rather than receding into navy. */
+.ww-price .plan-growth{
+  background:linear-gradient(155deg,#fff 0%,#fff 56%,#f7f2fd 100%);
+  color:#18273f;
+  border:2px solid #9470c4;
+  outline:none;
+  box-shadow:0 21px 45px rgba(81,51,119,.19),0 6px 16px rgba(24,39,63,.08);
+  transform:translateY(-9px);
+  z-index:1;
+}
+.ww-price .plan-growth:before{background:#f2bf58}
+.ww-price .plan-growth .plan-label{color:#7651aa}
+.ww-price .plan-growth .brand-dash,.ww-price .plan-growth .brand-dot{color:#9470c4}
+.ww-price .plan-growth .per,.ww-price .plan-growth .plan-copy,.ww-price .plan-growth li{color:#526076}
+.ww-price .plan-growth .hours,.ww-price .plan-growth h3,.ww-price .plan-growth .price{color:#18273f}
+.ww-price .plan-growth li:before{color:#9470c4}
+.ww-price .plan-growth a{background:#f2bf58;color:#18273f;box-shadow:0 5px 16px rgba(155,112,38,.14)}
+@media(max-width:760px){.ww-price .plan-growth{transform:none}}
+</style>
 {% macro person(fractional=false) -%}
 <svg class="human-icon" viewBox="0 0 42 55" aria-hidden="true" fill="none" stroke="#18273f" stroke-width="2.3" stroke-linejoin="round">
 <defs><clipPath id="person-half-{{ 'fraction' if fractional else 'full' }}"><rect x="0" y="0" width="{{ 21 if fractional else 42 }}" height="55"/></clipPath></defs>
