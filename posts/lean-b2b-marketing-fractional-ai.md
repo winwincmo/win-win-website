@@ -30,7 +30,7 @@ Adding employees can relieve some of the pressure, although more capacity doesn'
 
 [Forrester's 2026 review of B2B marketing challenges](https://secure.forrester.com/report/b2b-marketings-top-challenges-and-priorities-for-2026/RES197420) describes a similar tension: Expectations for marketing are rising faster than many organizations' readiness to execute and measure the work. The report points to challenges in data, governance, and operating-model capacity even as AI adoption becomes more common.
 
-That's why I think the important question for a growth-stage company is what kind of leadership and operating model will make its existing sales motion more effective.
+That's why I think the important question for a growth-stage company is what kind of leadership and operating model will make its existing sales motion more effective. I've written more about this starting point in [What Right-Fit Marketing Actually Means](/blog/right-fit-marketing/), where the emphasis is on shaping marketing around the way a business earns revenue.
 
 ## What can AI agents actually do for a B2B marketing team?
 
@@ -52,7 +52,7 @@ In many cases, this is precisely when experienced leadership becomes more valuab
 
 When execution becomes easier to produce, it also becomes easier to produce too much of it. Businesses can generate a remarkable volume of content, campaigns, and analysis without becoming any clearer about the customers they want to reach or the reasons those customers should choose them.
 
-A fractional CMO brings executive-level judgment to those decisions without requiring a full-time leadership hire. The responsibility includes evaluating the existing marketing strategy, establishing priorities, aligning marketing with the sales team, and determining which capabilities need to be performed by employees, outside specialists, or AI-supported workflows.
+A fractional CMO brings executive-level judgment to those decisions without requiring a full-time leadership hire. The responsibility includes evaluating the existing marketing strategy, establishing priorities, aligning marketing with the sales team, and determining which capabilities need to be performed by employees, outside specialists, or AI-supported workflows. If you're weighing an executive leader against another hire, [Do You Need a Fractional CMO or a Bigger Marketing Team?](/blog/fractional-cmo-or-marketing-team/) explores that decision in more detail.
 
 [McKinsey's research on organizations capturing value from AI](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value) identifies workflow redesign and leadership involvement among the organizational changes associated with meaningful impact. The research doesn't specifically evaluate fractional CMOs, but it reinforces a point that matters here: Technology creates more value when the organization changes how work is directed and managed.
 
@@ -70,7 +70,7 @@ For example, AI may support initial research into a target industry, while the s
 
 Forrester makes a similar case in its [2026 guidance on AI agents in B2B marketing](https://secure.forrester.com/report/align-ai-agent-use-cases-with-strategic-marketing-initiatives-to-accelerate-the-revenue-engine/RES191658), emphasizing the need to define agent responsibilities, data sources, and connections to strategic priorities before expecting measurable business impact.
 
-The relationship also needs a dependable operating rhythm. Weekly check-ins keep execution moving and decisions visible, while quarterly reviews provide an opportunity to examine whether the marketing investment is supporting the business's growth priorities.
+The relationship also needs a dependable operating rhythm. Weekly check-ins keep execution moving and decisions visible, while quarterly reviews provide an opportunity to examine whether the marketing investment is supporting the business's growth priorities. For a broader introduction to what that leadership role involves, see [What a Fractional Marketing Leader Can Do for a Growing Business](/blog/what-fractional-leadership-can-do/).
 
 ## Is an AI-supported fractional marketing model less expensive?
 
