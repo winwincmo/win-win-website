@@ -10,13 +10,11 @@ image_credit: "Vitaly Gariev / Unsplash"
 image_credit_url: "https://unsplash.com/photos/business-people-collaborating-in-a-modern-office-meeting-VRT8k7BJ7wk"
 ---
 
-For a long time, growing a B2B marketing function meant adding people. As the business expanded, someone needed to manage the website, develop sales materials, coordinate events, produce content, and keep campaigns moving. Eventually, those responsibilities became too much for one marketing generalist, so the company hired another person or brought in an agency.
+According to [Forrester's September 2026 research on B2B marketing](https://www.forrester.com/blogs/as-ai-adoption-surges-in-b2b-marketing-work-is-changing/), **55% of surveyed organizations are already using AI in production for advertising and media buying**, with most other marketing use cases reporting adoption between 43% and 48%. Those figures aren't a promise of better results, but they do illustrate how quickly the work of marketing is changing. For growth-stage B2B businesses, they also raise a practical question: If AI can take on more of the execution, what kind of team and leadership does a company actually need?
 
-That approach made sense when there was a fairly direct relationship between the amount of work to be done and the number of people required to do it. But the economics of marketing are changing, and growth-stage businesses have an opportunity to rethink the kind of organization they need to support the next stage of growth.
+For a long time, growing a B2B marketing function meant adding people. As the business expanded, someone needed to manage the website, develop sales materials, coordinate events, produce content, and keep campaigns moving. Eventually, those responsibilities became too much for one marketing generalist, so the company hired another person or brought in an agency. That approach made sense when there was a fairly direct relationship between the amount of work to be done and the number of people required to do it, but today's changing economics give B2B businesses reason to reconsider the structure of their marketing function.
 
 AI agents and connected workflows are making it possible to organize and carry out parts of marketing that previously demanded considerable hands-on time. For a smaller B2B company, that can mean access to more sophisticated execution capacity without immediately building a large internal department.
-
-This isn't just a prediction about the future of marketing. [Forrester's September 2026 research on B2B marketing AI adoption](https://www.forrester.com/blogs/as-ai-adoption-surges-in-b2b-marketing-work-is-changing/) found that AI is already in production across a wide range of marketing use cases, with adoption particularly strong in advertising and media buying. That evidence doesn't mean every company is realizing the same benefit, but it does suggest that AI-supported execution is becoming part of the normal marketing operating environment.
 
 The opportunity is compelling, although there's an important condition: Someone still needs to decide what marketing is supposed to accomplish, how it contributes to sales, and whether the work is worth the investment.
 
@@ -92,4 +90,10 @@ The opportunity for growth-stage B2B businesses is to build a marketing function
 
 At Win-Win, that's where we begin: with your sales motion, your growth priorities, and a marketing approach that makes sense for the stage of business you're in.
 
-If you're exploring what that could look like, [book a complimentary 15-minute call](https://calendar.app.google/KFmiJUCEcmPKtgGw7).
+## Research and related reading
+
+For more on the evidence behind this operating model, see [Forrester's research on AI adoption in B2B marketing](https://www.forrester.com/blogs/as-ai-adoption-surges-in-b2b-marketing-work-is-changing/), [McKinsey's findings on workflow redesign and leadership](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value), and the [NBER study of AI-assisted workplace productivity](https://www.nber.org/papers/w31161). These studies examine different settings and should inform, rather than substitute for, a company's own evaluation.
+
+You can also explore our articles on [right-fit marketing](/blog/right-fit-marketing/), [fractional CMO leadership versus hiring a larger team](/blog/fractional-cmo-or-marketing-team/), and [what a fractional marketing leader does](/blog/what-fractional-leadership-can-do/).
+
+**[Book a 15 min call](https://calendar.app.google/KFmiJUCEcmPKtgGw7)** to talk about the right marketing model for your business.
