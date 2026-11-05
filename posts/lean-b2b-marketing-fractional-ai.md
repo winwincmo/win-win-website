@@ -1,5 +1,5 @@
 ---
-title: "How Can a Leaner Marketing Team Help a Growing B2B Business Compete?"
+title: "How a Leaner Marketing Team can Fuel Growth"
 date: "2026-11-05"
 excerpt: "Fractional marketing leadership, AI agents, and a new model for growth."
 category: "Marketing Leadership"
