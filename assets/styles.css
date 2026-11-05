@@ -8,3 +8,21 @@
 @media(max-width:900px){.hero-grid{gap:24px}.hero h1{font-size:clamp(42px,5.8vw,62px)}.hero-visual{height:330px}.visual-chip{font-size:10px;padding:10px}.bulb-rays{width:34px;height:34px}}
 @media(max-width:760px){.hero-grid{grid-template-columns:1fr;padding-top:55px;padding-bottom:65px}.hero h1{font-size:clamp(43px,9vw,66px);letter-spacing:-3.2px}.hero-visual{height:315px;max-width:520px;width:100%}.hero .hero-lead{font-size:17px}.header{height:75px}.bulb-rays{width:30px;height:30px}.visual-copy strong{font-size:22px}.approach .section-head h2 br{display:initial}}
 @media(max-width:430px){.hero h1{font-size:clamp(37px,9.5vw,46px)}.bulb-rays{width:24px;height:24px;margin-left:1px}.visual-chip{font-size:9px;padding:8px}.visual-chip.one{left:8px}.visual-chip.two{right:8px}.visual-chip.three{right:10px;bottom:22px}}
+.stripe .stripe-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stripe .stripe-inner > div {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .stripe .stripe-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
