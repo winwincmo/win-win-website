@@ -18,6 +18,32 @@ if site['url'] == 'https://example.com' and '/' in repo:
 # Supports GitHub Pages project URLs (https://username.github.io/repository).
 from urllib.parse import urlparse
 site['base_path']=urlparse(site['url']).path.rstrip('/')
+
+site['author'] = {
+    'name': 'Amanda Moore Ortega',
+    'url': site['url'] + '/about/',
+    'linkedin': 'https://www.linkedin.com/in/amandamooreortega'
+}
+site['organization_schema'] = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': site['url'] + '/#organization',
+    'name': 'Win-Win Fractional CMO Services',
+    'url': site['url'] + '/',
+    'founder': {'@id': site['url'] + '/about/#amanda'}
+}
+site['person_schema'] = {
+    '@type': 'Person',
+    '@id': site['url'] + '/about/#amanda',
+    'name': site['author']['name'],
+    'url': site['author']['url'],
+    'sameAs': [site['author']['linkedin']],
+    'jobTitle': 'Founder, Win-Win Fractional CMO Services',
+    'description': 'Marketing and customer experience strategist with more than 25 years of experience in brand positioning, digital marketing, and B2B marketing leadership.',
+    'alumniOf': {'@type': 'CollegeOrUniversity', 'name': 'Georgia State University'},
+    'worksFor': {'@id': site['url'] + '/#organization'}
+}
+
 OUT.mkdir(exist_ok=True)
 shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
 markdown=mistune.create_markdown(escape=True,plugins=['strikethrough','table'])
@@ -35,11 +61,36 @@ def article_from_file(f):
 
 articles=[x for f in (ROOT/'posts').glob('*.md') if (x:=article_from_file(f))]
 articles.sort(key=lambda a:a['date'],reverse=True)
+
+for a in articles:
+    # All article URLs and images in structured data are absolute.
+    img = a.get('image')
+    if img and img.startswith('/'):
+        img = site['url'] + img
+    a['absolute_image'] = img
+    a['schema'] = {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        '@id': site['url'] + a['url'] + '#article',
+        'mainEntityOfPage': {'@type': 'WebPage', '@id': site['url'] + a['url']},
+        'headline': a['title'],
+        'description': a['excerpt'],
+        'datePublished': a['date'],
+        'author': {'@type': 'Person', '@id': site['person_schema']['@id'], 'name': site['author']['name'], 'url': site['author']['url']},
+        'publisher': {'@id': site['organization_schema']['@id']},
+        'articleSection': a.get('category', 'Marketing'),
+        'inLanguage': 'en-US'
+    }
+    if img:
+        a['schema']['image'] = img
+
 env=Environment(loader=FileSystemLoader(str(ROOT/'templates')),autoescape=select_autoescape(['html']))
 def render(rel,template,**kwargs):
     target=OUT/rel
     target.parent.mkdir(parents=True,exist_ok=True)
-    output=env.get_template(template).render(site=site,articles=articles,**kwargs)
+    canonical_path='/' + rel.replace('index.html','').lstrip('/')
+    canonical_url=site['url'] + canonical_path
+    output=env.get_template(template).render(site=site,articles=articles,canonical_url=canonical_url,**kwargs)
     if site['base_path']:
         # Prefix root-relative links and assets so GitHub Pages project sites work.
         output=re.sub(r'((?:href|src)=")/(?!/)',lambda m:m.group(1)+site['base_path']+'/',output)
@@ -49,6 +100,14 @@ render('blog/index.html','blog.html')
 render('faq/index.html','faq.html')
 render('approach/index.html','approach.html')
 render('services/index.html','services.html')
+render('about/index.html','about.html',page_schema={
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    '@id': site['url'] + '/about/#profile',
+    'url': site['url'] + '/about/',
+    'name': 'About Amanda Moore Ortega',
+    'mainEntity': site['person_schema']
+})
 for a in articles: render(f"blog/{a['slug']}/index.html",'article.html',article=a)
 render('404.html','404.html')
 # RSS: content summary, permalinks, with proper XML escaping.
@@ -61,6 +120,6 @@ for a in articles:
 rss+=['</channel></rss>']
 (OUT/'feed.xml').write_text('\n'.join(rss),encoding='utf-8')
 (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {site["url"]}/sitemap.xml\n')
-links=['/','/approach/','/services/','/blog/','/faq/']+[a['url'] for a in articles]
+links=['/','/approach/','/services/','/about/','/blog/','/faq/']+[a['url'] for a in articles]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{html.escape(site["url"]+u)}</loc></url>' for u in links)+'</urlset>')
 print(f'Built {len(articles)} articles in {OUT}')
