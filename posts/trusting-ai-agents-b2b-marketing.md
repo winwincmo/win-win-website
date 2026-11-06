@@ -28,7 +28,7 @@ Give the same agent a sound marketing strategy, accurate customer insights, appr
 
 That's why I believe experienced marketing leadership becomes even more valuable as AI takes on more execution. Someone still needs to understand the business, determine what the machine should accomplish, and evaluate whether its work is moving the business toward the right outcomes.
 
-**AI can dramatically expand marketing capacity. The value of that capacity depends on the thinking behind it.**
+You can give AI a lot of work to do. But if you haven't thought through what you're asking it to do, you'll just get more of the wrong work done.
 
 ## What is ourCMO.ai, and how does Win-Win use it?
 
