@@ -92,3 +92,13 @@
  .hero-visual .visual-chip{font-size:9px;min-height:46px}
  .hero-visual .visual-copy strong{font-size:18px}
 }
+
+/* Consistent non-emoji iconography across desktop and mobile */
+.service-card .service-icon{display:block;width:48px;height:48px;stroke:currentColor;flex:none}
+.service-card .big-symbol,.service-card .robot-icon,.service-card .growth-symbol{display:flex;align-items:center;justify-content:flex-start;width:56px;height:60px;margin:27px 0 22px;line-height:1}
+.service-card .big-symbol{color:#f2bf58}
+.service-card .robot-icon{color:#9470c4}
+.service-card .growth-symbol{color:#b38b43}
+.inline-link::after,.read-link::after,.text-link::after{content:"";display:inline-block;width:8px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg);margin-left:10px;vertical-align:2px}
+.inline-link,.text-link{white-space:normal;line-height:1.6}
+@media(max-width:760px){.service-card .service-icon{width:43px;height:43px}.service-card .big-symbol,.service-card .robot-icon,.service-card .growth-symbol{height:52px;margin:25px 0 20px}}
