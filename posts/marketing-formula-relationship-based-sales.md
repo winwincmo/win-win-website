@@ -4,10 +4,10 @@ date: "2026-11-06"
 category: "Strategy"
 excerpt: "What should marketing cost when your business grows through relationships and referrals? Start with how you actually win customers."
 published: true
-image: "https://images.unsplash.com/photo-1758518729711-1cbacd55efdb?auto=format&fit=crop&w=1600&q=82"
-image_alt: "Business professionals collaborating in conversation around a meeting table"
+image: "https://images.unsplash.com/photo-1758519288905-38b7b00c1023?auto=format&fit=crop&w=1600&q=82"
+image_alt: "Two business professionals shaking hands across a table during a client conversation"
 image_credit: "Vitaly Gariev / Unsplash"
-image_credit_url: "https://unsplash.com/photos/business-people-collaborating-in-a-modern-office-meeting-VRT8k7BJ7wk"
+image_credit_url: "https://unsplash.com/photos/two-businessmen-shaking-hands-across-a-table-lZXX-QVdyXY"
 ---
 
 If you run a relationship-based business, you've probably wondered how much you should be spending on marketing.
