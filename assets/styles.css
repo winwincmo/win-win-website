@@ -122,3 +122,66 @@
  .hero-visual .chip-icon{width:19px;height:19px;flex-basis:19px;margin:0}
 }
 @media(max-width:360px){.hero-visual .visual-chip{font-size:9px}}
+
+
+/* Compact mobile-first hero illustration. Desktop composition remains unchanged. */
+@media (max-width:760px){
+  .hero-visual{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    grid-template-rows:auto auto;
+    align-items:stretch;
+    column-gap:9px;
+    row-gap:25px;
+    height:auto;
+    min-height:0;
+    padding:30px 14px 15px;
+    overflow:visible;
+  }
+  .hero-visual .visual-circle{display:none}
+  .hero-visual .visual-copy{
+    position:static;
+    grid-column:1/-1;
+    grid-row:1;
+    transform:none;
+    text-align:center;
+    margin:0;
+  }
+  .hero-visual .visual-copy strong{
+    color:#18273f;
+    font-size:clamp(22px,6vw,28px);
+    line-height:1.24;
+    letter-spacing:-.8px;
+  }
+  .hero-visual .visual-copy>span{
+    color:#6f677e;
+    font-size:13px;
+    margin-top:10px;
+    line-height:1.45;
+  }
+  .hero-visual .visual-chip,
+  .hero-visual .visual-chip.one,
+  .hero-visual .visual-chip.two,
+  .hero-visual .visual-chip.three{
+    position:static!important;
+    left:auto!important;
+    right:auto!important;
+    top:auto!important;
+    bottom:auto!important;
+    transform:none!important;
+    width:auto;
+    min-width:0;
+    height:auto;
+    min-height:80px;
+    margin:0;
+    padding:11px 5px;
+    font-size:clamp(9px,2.55vw,11px);
+    line-height:1.25;
+    border-radius:12px;
+    box-shadow:none;
+  }
+  .hero-visual .visual-chip.one{grid-column:1;grid-row:2}
+  .hero-visual .visual-chip.two{grid-column:2;grid-row:2}
+  .hero-visual .visual-chip.three{grid-column:3;grid-row:2}
+  .hero-visual .chip-icon{width:21px;height:21px;flex:0 0 21px}
+}
