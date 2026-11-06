@@ -40,11 +40,11 @@ There's another challenge I've encountered with heavily specialized marketing te
 
 Your website specialist is thinking about website performance, while your advertising team is focused on campaign results. The content team has an editorial calendar to maintain. Each person may be doing excellent work according to the objectives they've been given, but who's looking at the relationship the buyer is developing with the company?
 
-Think about how that relationship might unfold in a B2B business. Someone hears about your company from a trusted colleague and visits your website to learn more. A few months later, they encounter an article that addresses a problem they're dealing with. Eventually, they meet someone from your sales team at an industry event, and that conversation becomes the beginning of a business relationship.
+Think about how that relationship might unfold in a B2B business. Someone hears about your company from a trusted colleague and asks an AI assistant to compare you with other providers. They visit your website to see whether the recommendation holds up. A few months later, they ask AI another question about the problem they're trying to solve and encounter an article from your company. Eventually, they meet someone from your sales team at an industry event and continue a conversation that's already been shaped by several encounters with your expertise.
 
 The buyer doesn't think of these as separate marketing channels. They're all experiences that contribute to an evolving impression of your company. That's the connective tissue I want a marketing team to understand.
 
-I want the website to reinforce the conversations our salespeople are having, and I want our content to address questions that come up as buyers consider working with us. The marketing program should reflect what we know about the people we're trying to reach and the relationships we're trying to build.
+I want the website to reinforce the conversations our salespeople are having, and I want our content to address questions that come up as buyers consider working with us. Now I also want to know what an AI assistant might tell a buyer who asks about our company or the problems we solve. We can't control every AI-generated answer, but we can make our expertise easier to discover and our information clearer and more consistent across the places those systems draw from. That belongs in the same connected marketing conversation as the website and the sales relationship.
 
 When too many tactical specialists are thinking and acting independently, that connected perspective can get lost. We become increasingly sophisticated at managing individual channels without necessarily improving the overall buyer experience.
 
