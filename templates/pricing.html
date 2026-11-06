@@ -70,6 +70,30 @@
 .ww-price .plan-growth li:before{color:#9470c4}
 .ww-price .plan-growth a{background:#f2bf58;color:#18273f;box-shadow:0 5px 16px rgba(155,112,38,.14)}
 @media(max-width:760px){.ww-price .plan-growth{transform:none}}
+
+/* Investment comparison: visible staffing roles first; fractional executive fit second. */
+.ww-price .team-example{margin-top:0}
+.ww-price .winwin-alternative{margin-top:60px}
+.ww-price .winwin-alternative>h2{max-width:1020px}
+.ww-price .alternative-intro{font-size:16px;line-height:1.85;color:#606c7a;max-width:890px;margin:0 0 28px}
+.ww-price .leadership-visual{background:#fff;border:1px solid #e3dfe8;border-radius:18px;padding:29px;margin:28px 0}
+.ww-price .leadership-visual-top{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:22px}
+.ww-price .leadership-visual-top strong{font-size:17px}
+.ww-price .leadership-visual-top span{font-size:12px;color:#606c7a}
+.ww-price .leadership-roles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.ww-price .leader-role{min-width:0;position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;border:1px solid #e3dfe8;border-radius:14px;background:#faf8f2;padding:22px 10px 17px}
+.ww-price .leader-avatar{display:grid;place-items:center;width:60px;height:60px;background:#e8e3f1;border-radius:50%;margin:0 0 5px}
+.ww-price .leader-avatar svg{width:40px;height:40px;fill:none;stroke:#18273f;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.ww-price .leader-role strong{font-family:Manrope,sans-serif;font-size:22px;letter-spacing:-.7px}
+.ww-price .leader-role small{font-size:12px;line-height:1.45;color:#606c7a}
+.ww-price .leader-role.fractional-leader{background:#f4edfc;border:2px solid #9470c4;box-shadow:0 8px 24px #9470c426}
+.ww-price .fractional-leader .leader-avatar{background:#9470c4}
+.ww-price .fractional-leader .leader-avatar svg{stroke:#fff}
+.ww-price .fractional-leader strong{color:#7651aa}
+.ww-price .fractional-tag{display:block;margin-top:5px;padding:5px 11px;border-radius:20px;background:#9470c4;color:#fff;font-size:10px;letter-spacing:1.1px;font-weight:800}
+.ww-price .leadership-caption{margin:18px 0 0;font-size:12px;line-height:1.7;color:#606c7a}
+.ww-price .winwin-alternative .scenario-grid{max-width:none}
+@media(max-width:760px){.ww-price .winwin-alternative{margin-top:45px}.ww-price .leadership-visual{padding:19px}.ww-price .leadership-roles{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.ww-price .leadership-visual-top{align-items:flex-start;flex-direction:column}.ww-price .leader-role{padding:16px 6px}.ww-price .leader-avatar{width:48px;height:48px}.ww-price .leader-avatar svg{width:34px;height:34px}}
 </style>
 {% macro person(fractional=false) -%}
 <svg class="human-icon" viewBox="0 0 42 55" aria-hidden="true" fill="none" stroke="#18273f" stroke-width="2.3" stroke-linejoin="round">
@@ -91,11 +115,34 @@
 </div>
 <p class="small-note">Pricing includes senior leadership and agreed marketing execution. Advertising media spend, events, third-party production, tools, and other outside costs are budgeted separately. Weekly hours describe senior leadership involvement; execution deliverables are defined in the scope.</p>
 </div></section>
-<section class="scenarios"><div class="shell"><span class="pk">INVESTMENT SCENARIOS</span><h2>What does your investment look like <em>next to an in-house team?</em></h2><p class="section-intro">Win-Win combines senior marketing leadership with execution across content, advertising, websites, social media, and email/CRM. Hiring a team to cover these functions could require several separate roles.</p><div class="scenario-grid">
+<section class="scenarios"><div class="shell">
+<span class="pk">INVESTMENT SCENARIOS</span>
+<h2>What does marketing leadership <em>really need to cost?</em></h2>
+<p class="section-intro">A growing B2B business needs marketing expertise, but it may not need a full department. Here is what one illustrative in-house team could cost before benefits, recruiting, and other employment overhead.</p>
+<div class="team-example"><div><span class="pk">THE TRADITIONAL MODEL</span><h3>Building an in-house marketing team adds up.</h3><p>Here is one possible combination of senior leadership and specialized staff. Some businesses combine roles or use contractors instead.</p></div><div class="team-roles"><div class="team-row">{{ person(false) }}<div><strong>Senior marketing leader</strong><span>Leadership and strategy</span></div><b>$166,790</b></div><div class="team-row">{{ person(false) }}<div><strong>Content writer</strong><span>Messaging and content</span></div><b>$76,910</b></div><div class="team-row">{{ person(false) }}<div><strong>Web developer</strong><span>Website work</span></div><b>$92,650</b></div><div class="team-row">{{ person(false) }}<div><strong>Advertising specialist</strong><span>Paid campaigns</span></div><b>$78,760</b></div><div class="team-row">{{ person(false) }}<div><strong>Social media specialist</strong><span>Organic social</span></div><b>$78,760</b></div><div class="team-row">{{ person(false) }}<div><strong>Email / CRM specialist</strong><span>Email automation and CRM</span></div><b>$78,760</b></div><div class="team-total"><strong>Combined salary benchmarks</strong><b>$572,630/yr</b></div></div></div>
+
+<div class="winwin-alternative">
+<span class="pk">THE WIN-WIN MODEL</span>
+<h2>Senior marketing leadership at a fraction of the cost. <em>Execution prioritized around your sales motion.</em></h2>
+<p class="alternative-intro">Win-Win brings an experienced marketing leader into the decisions that shape growth. Then we coordinate the agreed marketing work around the needs of your sales organization. Specialized resources and AI-supported workflows provide execution without requiring you to hire for every channel.</p>
+<div class="leadership-visual" role="group" aria-label="Example leadership team: CEO, CRO, CHRO, and a fractional Win-Win CMO">
+<div class="leadership-visual-top"><strong>Your leadership team</strong><span>Example organizational structure</span></div>
+<div class="leadership-roles">
+<div class="leader-role"><span class="leader-avatar" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="13" r="8"/><path d="M8 41v-7c0-8 6-13 14-13s14 5 14 13v7"/></svg></span><strong>CEO</strong><small>Chief Executive Officer</small></div>
+<div class="leader-role"><span class="leader-avatar" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="13" r="8"/><path d="M8 41v-7c0-8 6-13 14-13s14 5 14 13v7"/></svg></span><strong>CRO</strong><small>Chief Revenue Officer</small></div>
+<div class="leader-role"><span class="leader-avatar" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="13" r="8"/><path d="M8 41v-7c0-8 6-13 14-13s14 5 14 13v7"/></svg></span><strong>CHRO</strong><small>Chief Human Resources Officer</small></div>
+<div class="leader-role fractional-leader"><span class="leader-avatar" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="13" r="8"/><path d="M8 41v-7c0-8 6-13 14-13s14 5 14 13v7"/></svg></span><strong>CMO</strong><small>Fractional marketing leader</small><span class="fractional-tag">WIN-WIN</span></div>
+</div>
+<p class="leadership-caption">A fractional CMO works alongside your existing executives, with the level of involvement set by your engagement. The roles shown are illustrative.</p>
+</div>
+<div class="scenario-grid">
 <article class="scenario"><h3>Win-Win Essential</h3><div class="scenario-line">{{ person(true) }}<div><strong>Senior leadership + scoped execution</strong><p>4 leadership hours weekly, plus agreed marketing delivery</p></div><span class="scenario-price">$42,000/yr</span></div></article>
-<article class="scenario"><h3>Win-Win Growth</h3><div class="scenario-line">{{ person(true) }}<div><strong>Senior leadership + expanded execution</strong><p>8 leadership hours weekly, plus agreed marketing delivery</p></div><span class="scenario-price">$78,000/yr</span></div></article></div>
-<div class="team-example"><div><span class="pk">THE IN-HOUSE ALTERNATIVE</span><h3>An illustrative six-person team</h3><p>A company may consolidate some roles or use contractors. This is one possible staffing model, not a required team size.</p></div><div class="team-roles"><div class="team-row">{{ person(false) }}<div><strong>Senior marketing leader</strong><span>Leadership and strategy</span></div><b>$166,790</b></div><div class="team-row">{{ person(false) }}<div><strong>Content writer</strong><span>Messaging and content</span></div><b>$76,910</b></div><div class="team-row">{{ person(false) }}<div><strong>Web developer</strong><span>Website work</span></div><b>$92,650</b></div><div class="team-row">{{ person(false) }}<div><strong>Advertising specialist</strong><span>Paid campaigns</span></div><b>$78,760</b></div><div class="team-row">{{ person(false) }}<div><strong>Social media specialist</strong><span>Organic social</span></div><b>$78,760</b></div><div class="team-row">{{ person(false) }}<div><strong>Email / CRM specialist</strong><span>Email automation and CRM</span></div><b>$78,760</b></div><div class="team-total"><strong>Combined salary benchmarks</strong><b>$572,630/yr</b></div></div></div>
-<p class="scenario-foot">Sources: U.S. Bureau of Labor Statistics, May 2025 median annual wages for <a href="https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm">marketing managers</a>, <a href="https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm">writers</a>, <a href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm">web developers</a>, and <a href="https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm">marketing specialists</a>. The marketing specialist wage ($78,760) is used as a broad proxy for advertising, social, and email/CRM roles, not as a role-specific salary estimate. This hypothetical sum excludes benefits and hiring overhead. Win-Win engagement fees do not represent equivalent full-time hours, coverage, or output. Partial-person icons signify a fractional engagement, not a literal half-time role.</p></div></section><section class="fine-print"><div class="shell info-grid">
+<article class="scenario"><h3>Win-Win Growth</h3><div class="scenario-line">{{ person(true) }}<div><strong>Senior leadership + expanded execution</strong><p>8 leadership hours weekly, plus agreed marketing delivery</p></div><span class="scenario-price">$78,000/yr</span></div></article>
+</div>
+</div>
+<p class="scenario-foot">Sources: U.S. Bureau of Labor Statistics, May 2025 median annual wages for <a href="https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm">marketing managers</a>, <a href="https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm">writers</a>, <a href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm">web developers</a>, and <a href="https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm">marketing specialists</a>. The marketing specialist wage ($78,760) is used as a broad proxy for advertising, social, and email/CRM roles, not as a role-specific salary estimate. This hypothetical sum excludes benefits and hiring overhead. Win-Win engagement fees do not represent equivalent full-time hours, coverage, or output. Partial-person icons signify a fractional engagement, not a literal half-time role.</p>
+</div></section>
+<section class="fine-print"><div class="shell info-grid">
 <div><span class="pk">WHAT YOU'RE INVESTING IN</span><h2>Leadership that <em>supports your sales motion.</em></h2><p>Win-Win brings senior marketing strategy and oversight together with scoped execution across content, ads, websites, social media, and email/CRM. Specialized AI agents and workflows extend the team's capacity under experienced leadership.</p><p>Read more about our <a href="/services/">Services</a> and <a href="/approach/">Approach</a>.</p></div>
 <div><h3>Keep the budget clear.</h3><ul><li>The monthly fee covers senior leadership and agreed marketing execution.</li><li>Media spend, trade shows, outside production, and other third-party expenses sit in a separately approved budget.</li><li>Any additional technology, AI-platform costs, or specialist work are confirmed when scoping the engagement.</li><li>Quarterly reviews keep spending and marketing priorities connected to business goals.</li></ul></div>
 </div></section>
