@@ -16,15 +16,19 @@ At the same time, [McKinsey's 2025 global AI survey](https://www.mckinsey.com/ca
 
 At Win-Win, the answer starts with experienced marketing leadership and a clear understanding of how the client wins business. The agents have a role, and it's an important one. But the company's strategy, customer relationships, and reputation need more than automated output.
 
-## What is an AI marketing agent, and what should it be responsible for?
+## What makes an AI marketing agent effective?
 
-An AI marketing agent is software that can work through a defined task or sequence of tasks, using information and connected tools to move work forward. That might involve researching a market, preparing content, organizing customer information, or coordinating follow-up activities.
+An AI marketing agent is a machine. It may be a remarkably sophisticated machine, capable of researching markets, creating content, managing campaigns, or coordinating workflows. But the principle is familiar: garbage in, garbage out.
 
-There's a practical difference between asking AI to write an email and giving an agent a well-defined job. A useful agent needs context about the business, boundaries around what it can do, and a process for checking its work.
+The quality of its work depends on how it's configured, what information it receives, the instructions it's given, and the standards used to evaluate its output.
 
-For example, an agent might prepare a first draft of an industry-specific sales email based on approved positioning. The marketing leader still needs to decide whether that message belongs in the plan. Someone who understands the customer needs to verify that the claims are accurate. The sales team needs to recognize the message as something they would actually say.
+Consider an agent tasked with creating an email campaign for a B2B sales team. Without a clear understanding of the business, its positioning, its customers, and how its sales relationships work, that agent might produce perfectly polished emails that accomplish very little.
 
-That is how I think about AI-supported execution: as a way to create dependable capacity around decisions the business has already made.
+Give the same agent a sound marketing strategy, accurate customer insights, approved messaging, and clear instructions, and the results can be dramatically different.
+
+That's why I believe experienced marketing leadership becomes even more valuable as AI takes on more execution. Someone still needs to understand the business, determine what the machine should accomplish, and evaluate whether its work is moving the business toward the right outcomes.
+
+**AI can dramatically expand marketing capacity. The value of that capacity depends on the thinking behind it.**
 
 ## What is ourCMO.ai, and how does Win-Win use it?
 
