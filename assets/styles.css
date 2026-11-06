@@ -65,3 +65,30 @@
 .post-wrap > .post-byline{display:block;line-height:1.6;margin:0 0 27px}
 .post-wrap > h1{margin-top:0;line-height:1.14;overflow-wrap:break-word}
 @media(max-width:760px){.post-wrap > .article-meta{margin-bottom:7px}.post-wrap > .post-byline{margin-bottom:22px}.post-wrap > h1{line-height:1.16}}
+
+/* Mobile illustration polish: keep labels readable instead of overlapping rings. */
+@media (max-width:760px){
+ .hero-visual{height:350px;padding-bottom:70px}
+ .hero-visual .visual-circle{top:40%;transform:translateY(-50%)}
+ .hero-visual .visual-circle.outer{width:min(72%,265px)}
+ .hero-visual .visual-circle.middle{width:min(52%,190px)}
+ .hero-visual .visual-circle.inner{width:min(29%,106px)}
+ .hero-visual .visual-copy{transform:translateY(-32px)}
+ .hero-visual .visual-copy strong{font-size:clamp(18px,5vw,22px)}
+ .hero-visual .visual-copy>span{font-size:11px;margin-top:8px}
+ .hero-visual .visual-chip{
+  top:auto;right:auto;bottom:13px;left:auto;
+  display:flex;align-items:center;justify-content:center;
+  width:calc((100% - 44px)/3);min-height:43px;
+  padding:7px 5px;font-size:10px;line-height:1.3;
+  white-space:normal;text-align:center;border-radius:10px;
+  box-shadow:0 3px 12px #19283d12;
+ }
+ .hero-visual .visual-chip.one{left:12px;top:auto}
+ .hero-visual .visual-chip.two{left:calc(50% - (100% - 44px)/6);right:auto;top:auto;transform:translateX(-50%)}
+ .hero-visual .visual-chip.three{right:12px;left:auto;bottom:13px}
+}
+@media (max-width:380px){
+ .hero-visual .visual-chip{font-size:9px;min-height:46px}
+ .hero-visual .visual-copy strong{font-size:18px}
+}
