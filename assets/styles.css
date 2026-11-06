@@ -228,3 +228,38 @@
     padding: 15px 22px;
   }
 }
+
+
+/* Blog RSS and article navigation: brand-colored SVGs instead of emoji glyphs. */
+.list-bar .rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #7c5caf;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.list-bar .rss-link:hover,
+.list-bar .rss-link:focus-visible { color: #56368a; }
+.list-bar .rss-icon {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+  display: block;
+}
+.blog-row .row-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 26px;
+}
+.blog-row .row-arrow svg {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+@media (max-width: 430px) {
+  .list-bar { gap: 10px; }
+  .list-bar .rss-link { font-size: 11px; letter-spacing: .3px; }
+  .list-bar .rss-icon { width: 16px; height: 16px; flex-basis: 16px; }
+}
