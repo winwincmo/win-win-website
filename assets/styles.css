@@ -85,7 +85,7 @@
   box-shadow:0 3px 12px #19283d12;
  }
  .hero-visual .visual-chip.one{left:12px;top:auto}
- .hero-visual .visual-chip.two{left:calc(50% - (100% - 44px)/6);right:auto;top:auto;transform:translateX(-50%)}
+ .hero-visual .visual-chip.two{left:50%;right:auto;top:auto;transform:translateX(-50%)}
  .hero-visual .visual-chip.three{right:12px;left:auto;bottom:13px}
 }
 @media (max-width:380px){
