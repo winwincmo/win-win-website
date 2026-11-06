@@ -217,6 +217,24 @@
 .approach-page .ap-step-icon{width:43px;height:43px;flex:0 0 43px;display:grid;place-items:center;background:transparent}
 .approach-page .ap-step-icon svg{display:block;width:43px;height:43px}
 @media(max-width:760px){.approach-page .ap-step-icon{width:39px;height:39px;flex-basis:39px}.approach-page .ap-step-icon svg{width:39px;height:39px}}
+
+/* Mobile process icons get a consistent visual footprint and clear spacing. */
+@media(max-width:760px){
+ .approach-page .ap-card-top{align-items:center;gap:10px 14px;margin-bottom:21px}
+ .approach-page .ap-step-label{min-width:0;gap:13px}
+ .approach-page .ap-step-icon{
+  width:48px;height:48px;flex:0 0 48px;
+  background:#f2edf8;border:1px solid #e6dcf2;border-radius:13px;
+ }
+ .approach-page .ap-step-icon svg{width:35px;height:35px}
+ .approach-page .ap-number{line-height:1.5}
+ .approach-page .ap-time{white-space:nowrap}
+}
+@media(max-width:390px){
+ .approach-page .ap-step-icon{width:44px;height:44px;flex-basis:44px}
+ .approach-page .ap-step-icon svg{width:33px;height:33px}
+ .approach-page .ap-step-label{gap:10px}
+}
 </style>
 
 <main class="approach-page">
