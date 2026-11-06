@@ -185,3 +185,46 @@
   .hero-visual .visual-chip.three{grid-column:3;grid-row:2}
   .hero-visual .chip-icon{width:21px;height:21px;flex:0 0 21px}
 }
+
+
+/* Blog CTA: use brand-color vector icons, never OS emoji glyphs. */
+.post-end .post-end-mark {
+  display: flex;
+  align-items: center;
+  color: #b0873a;
+  line-height: 1;
+}
+.post-end .post-end-mark svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  flex: none;
+}
+.post-end .btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+}
+.post-end .post-end-arrow {
+  display: block;
+  width: 19px;
+  height: 19px;
+  flex: none;
+}
+@media (max-width: 760px) {
+  .post-end {
+    padding: 30px 26px;
+    margin-top: 58px;
+  }
+  .post-end h2 {
+    font-size: clamp(23px, 6vw, 28px);
+    line-height: 1.25;
+    letter-spacing: -.8px;
+  }
+  .post-end .btn-gold {
+    max-width: 100%;
+    padding: 15px 22px;
+  }
+}
