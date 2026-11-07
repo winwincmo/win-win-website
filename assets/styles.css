@@ -263,3 +263,13 @@
   .list-bar .rss-link { font-size: 11px; letter-spacing: .3px; }
   .list-bar .rss-icon { width: 16px; height: 16px; flex-basis: 16px; }
 }
+
+
+/* Article comparison table: readable columns on desktop, swipeable on phones */
+.prose table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;margin:26px 0 42px;font-size:14px;line-height:1.55;-webkit-overflow-scrolling:touch}
+.prose th,.prose td{padding:14px 16px;min-width:190px;text-align:left;vertical-align:top;border-bottom:1px solid #dfdce7}
+.prose th{background:#eee9f7;color:#17233b;font-weight:800}
+.prose th:first-child,.prose td:first-child{min-width:145px;font-weight:700}
+.prose tr:nth-child(even) td{background:#f9f7fc}
+.prose h3{font-size:21px;letter-spacing:-.5px;line-height:1.35;margin:29px 0 12px;color:#17233b}
+@media(max-width:760px){.prose table{font-size:13px;margin:20px 0 34px}.prose th,.prose td{padding:12px 13px;min-width:205px}.prose th:first-child,.prose td:first-child{min-width:128px}.prose h3{font-size:19px}}
