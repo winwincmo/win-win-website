@@ -76,11 +76,14 @@ for a in articles:
         'headline': a['title'],
         'description': a['excerpt'],
         'datePublished': a['date'],
+        'dateModified': a.get('updated', a['date']),
         'author': {'@type': 'Person', '@id': site['person_schema']['@id'], 'name': site['author']['name'], 'url': site['author']['url']},
         'publisher': {'@id': site['organization_schema']['@id']},
         'articleSection': a.get('category', 'Marketing'),
         'inLanguage': 'en-US'
     }
+    if a.get('keywords'):
+        a['schema']['keywords'] = a['keywords']
     if img:
         a['schema']['image'] = img
 
