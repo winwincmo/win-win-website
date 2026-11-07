@@ -3,6 +3,8 @@ title: "How a Leaner Marketing Team can Fuel Growth"
 date: "2026-11-05"
 excerpt: "Fractional marketing leadership, AI agents, and a new model for growth."
 category: "Marketing Leadership"
+seo_title: "How a Leaner B2B Marketing Team Can Grow | Win-Win"
+seo_description: "Learn how fractional CMO leadership and AI-supported workflows can expand B2B marketing capacity without building a large in-house team."
 published: true
 image: "https://images.unsplash.com/photo-1758518729711-1cbacd55efdb?auto=format&fit=crop&w=1600&q=82"
 image_alt: "Business professionals collaborating over strategic planning materials during an office meeting"

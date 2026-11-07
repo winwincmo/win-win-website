@@ -3,6 +3,8 @@ title: "What right-fit marketing actually means"
 date: "2026-11-04"
 excerpt: "The best marketing plan isn't the biggest one. It's the one your sales team can use and your business can sustain."
 category: "Strategy"
+seo_title: "What Is Right-Fit Marketing for B2B? | Win-Win"
+seo_description: "Right-fit marketing begins with how your company wins customers. Learn to prioritize work that supports sales without unnecessary overhead."
 published: true
 image: "/assets/working.jpeg"
 image_alt: "Colleagues reviewing notes and planning work around a table"

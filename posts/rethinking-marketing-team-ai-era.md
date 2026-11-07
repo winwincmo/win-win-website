@@ -3,6 +3,8 @@ title: "Rethinking the Marketing Team for the AI Era: A Practical Guide for Grow
 date: "2026-11-06"
 category: "Marketing Leadership"
 excerpt: "A practical guide to building a connected marketing function around sales priorities, senior leadership, specialized resources, and AI-supported execution."
+seo_title: "Rethinking B2B Marketing Teams for the AI Era | Win-Win"
+seo_description: "A practical guide to designing a lean B2B marketing function with senior leadership, clear sales priorities, and AI-supported workflows."
 published: true
 image: "https://images.unsplash.com/photo-1758873269117-d5845126928a?auto=format&fit=crop&w=1600&q=82"
 image_alt: "Colleagues collaborating around a whiteboard in a modern office"

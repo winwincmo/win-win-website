@@ -3,6 +3,8 @@ title: "Can You Trust AI Agents With Your B2B Marketing?"
 date: "2026-11-05"
 category: "Marketing Leadership"
 excerpt: "Human-led strategy, accountable execution, and how Win-Win uses the ourCMO.ai platform to support B2B sales."
+seo_title: "Can You Trust AI Agents With B2B Marketing? | Win-Win"
+seo_description: "Learn how AI agents can support B2B marketing while human leaders protect brand trust, guide strategy, and remain accountable for the work."
 published: true
 image: "/assets/working.jpeg"
 image_alt: "Colleagues reviewing plans and working collaboratively around a table"

@@ -3,6 +3,8 @@ title: "What Does Lean, Accountable Marketing Look Like in the AI Era?"
 date: "2026-11-06"
 category: "Marketing Leadership"
 excerpt: "After 25 years leading marketing teams, I've learned that an hour of strategic thinking can be worth more than an hour of production. AI gives lean teams a new kind of reach."
+seo_title: "Lean, Accountable Marketing in the AI Era | Win-Win"
+seo_description: "What does lean B2B marketing look like with AI? Explore why senior direction, clear priorities, and efficient execution can matter more than team size."
 published: true
 image: "https://images.unsplash.com/photo-1752170080635-db168448f85d?auto=format&fit=crop&w=1600&q=82"
 image_alt: "Three people collaborating around a table with laptops"

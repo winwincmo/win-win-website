@@ -3,6 +3,8 @@ title: "Do You Need a Fractional CMO or a Bigger Marketing Team?"
 date: "2026-11-05"
 category: "Marketing Leadership"
 excerpt: "Before hiring another marketer, consider whether your business needs more execution capacity or more experienced marketing leadership."
+seo_title: "Fractional CMO or Bigger Marketing Team? | Win-Win"
+seo_description: "Before hiring more marketers, learn when a growing B2B company needs fractional CMO leadership instead of additional staff or agency execution."
 published: true
 image: "/assets/vitaly-gariev-K0aM-ztA76Q-unsplash.jpg"
 image_alt: "Colleagues collaborating around a whiteboard during a marketing strategy discussion"

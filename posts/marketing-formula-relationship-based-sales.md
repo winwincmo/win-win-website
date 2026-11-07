@@ -3,6 +3,8 @@ title: "Is There a Marketing Formula That Works for Relationship-Based Sales?"
 date: "2026-11-06"
 category: "Strategy"
 excerpt: "What should marketing cost when your business grows through relationships and referrals? Start with how you actually win customers."
+seo_title: "Marketing for Relationship-Based Sales | Win-Win"
+seo_description: "How much should a relationship-driven B2B business spend on marketing? Build a practical plan around referrals, buyer needs, and the sales process."
 published: true
 image: "https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?auto=format&fit=crop&w=1600&q=82"
 image_alt: "Diverse group of colleagues discussing business plans together in a modern office"
