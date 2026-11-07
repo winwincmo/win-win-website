@@ -273,3 +273,6 @@
 .prose tr:nth-child(even) td{background:#f9f7fc}
 .prose h3{font-size:21px;letter-spacing:-.5px;line-height:1.35;margin:29px 0 12px;color:#17233b}
 @media(max-width:760px){.prose table{font-size:13px;margin:20px 0 34px}.prose th,.prose td{padding:12px 13px;min-width:205px}.prose th:first-child,.prose td:first-child{min-width:128px}.prose h3{font-size:19px}}
+
+/* Keep the service-category eyebrow compact on mobile. */
+@media(max-width:760px){.hero .eyebrow{font-size:10px;letter-spacing:1.35px;line-height:1.5}}
