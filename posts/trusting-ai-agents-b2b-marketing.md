@@ -2,9 +2,9 @@
 title: "Can You Trust AI Agents With Your B2B Marketing?"
 date: "2026-11-05"
 category: "Marketing Leadership"
-excerpt: "Human-led strategy, accountable execution, and how Win-Win uses the ourCMO.ai platform to support B2B sales."
+excerpt: "Why experienced marketing leadership matters as AI agents make leaner B2B marketing operations possible."
 seo_title: "Can You Trust AI Agents With B2B Marketing? | Win-Win"
-seo_description: "Learn how AI agents can support B2B marketing while human leaders protect brand trust, guide strategy, and remain accountable for the work."
+seo_description: "How fractional CMO leadership and AI agents can create leaner B2B marketing operations that strengthen customer relationships and support revenue."
 published: true
 image: "/assets/working.jpeg"
 image_alt: "Colleagues reviewing plans and working collaboratively around a table"
@@ -12,83 +12,90 @@ image_credit: "Unsplash"
 image_credit_url: "https://unsplash.com/"
 ---
 
-According to [Gartner's September 2026 research on AI and brand trust](https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-marketing-survuey-finds-35-percent-of-consumers-rely-on-influencers-less-due-to-ai), **57% of surveyed consumers say AI-generated content has made them less trusting of brand messaging**. The research concerns consumers rather than B2B buying teams, but the concern is worth taking seriously. When the decision involves a substantial investment, a long-term relationship, or a complex product, credibility matters.
+*Why experienced leadership matters more than ever in the age of AI agents.*
 
-At the same time, [McKinsey's 2025 global AI survey](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025) found that **88% of respondents reported regular AI use in at least one business function**, while only 39% reported an enterprise-level EBIT impact. The numbers describe different measures, not a direct comparison of marketing outcomes. They do point to a question I think every business should be asking: What makes AI genuinely useful, and who is accountable for the work it produces?
+According to [McKinsey's 2025 global AI survey](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025), 88% of respondents reported regular AI use in at least one business function. Yet only 39% reported an enterprise-level impact on earnings before interest and taxes.
 
-At Win-Win, the answer starts with experienced marketing leadership and a clear understanding of how the client wins business. The agents have a role, and it's an important one. But the company's strategy, customer relationships, and reputation need more than automated output.
+If so many businesses are using AI, what separates productive adoption from simply generating more activity, faster?
 
-## What makes an AI marketing agent effective?
+I believe the answer is leadership.
 
-An AI marketing agent is a machine. It may be a remarkably sophisticated machine, capable of researching markets, creating content, managing campaigns, or coordinating workflows. But the principle is familiar: garbage in, garbage out.
+AI agents are changing what's possible for lean marketing teams. They can carry out sophisticated workflows and maintain continuity across activities that once required considerable coordination among people.
 
-The quality of its work depends on how it's configured, what information it receives, the instructions it's given, and the standards used to evaluate its output.
+But someone still needs to understand the business well enough to decide what matters.
 
-Consider an agent tasked with creating an email campaign for a B2B sales team. Without a clear understanding of the business, its positioning, its customers, and how its sales relationships work, that agent might produce perfectly polished emails that accomplish very little.
+## Marketing begins with relationships
 
-Give the same agent a sound marketing strategy, accurate customer insights, approved messaging, and clear instructions, and the results can be dramatically different.
+For many B2B companies, the most valuable business asset isn't a marketing campaign. It's the trust earned through years of showing up for customers and delivering on promises.
 
-That's why I believe experienced marketing leadership becomes even more valuable as AI takes on more execution. Someone still needs to understand the business, determine what the machine should accomplish, and evaluate whether its work is moving the business toward the right outcomes.
+Marketing should extend the value of those relationships.
 
-You can give AI a lot of work to do. But if you haven't thought through what you're asking it to do, you'll just get more of the wrong work done.
+That means understanding what makes customers choose your company and what keeps them coming back. It means making your salespeople more effective by giving them the insights and resources they need to deepen those relationships.
 
-## What is ourCMO.ai, and how does Win-Win use it?
+AI can make much of this work more efficient. But efficiency only matters when the work supports the right objectives.
 
-[**ourCMO.ai**](https://ourcmo.ai/) is the platform that supports Win-Win's AI-powered marketing model. It was developed by Josh Webb, a marketing professional and friend of mine who shares my conviction that marketing technology needs to begin with strategy.
+Without experienced leadership, an AI-powered marketing operation can become a remarkably productive machine that accomplishes very little.
 
-The platform is designed to understand a business's goals, customers, positioning, and marketing information before coordinating execution. According to its published description, [ourCMO.ai](https://ourcmo.ai/) works with HighLevel's marketing and automation capabilities and uses Claude AI for its strategy layer. It describes specialized capabilities for research and SEO, content development, design, CRM management, and lead qualification.
+## The opportunity for leaner marketing
 
-Those capabilities give Win-Win a technology foundation for building workflows that support a client's approved marketing plan. They don't mean that every client needs every agent, or that each feature is automatically active in every engagement. We determine which workflows make sense based on the business's systems, priorities, and agreed scope of work.
+I've spent much of my career developing marketing strategies for B2B companies with complex sales processes.
 
-Win-Win brings a particular perspective to the platform: **marketing built to support B2B sales**. For many of our clients, growth depends on experienced salespeople, trusted partners, referrals, and buyers who take time to evaluate a decision. We organize the use of agents around that reality.
+One thing I've learned is that adding more marketing activity doesn't necessarily lead to growth. Sometimes the opportunity is to simplify the operation and concentrate resources on the work that makes the greatest difference.
 
-## What can the agents do for a B2B sales team?
+AI agents make that approach even more interesting.
 
-Consider the work surrounding an important industry event. Before the sales team arrives, it needs useful account information, relevant messages, and a reason to start conversations. Afterward, it needs timely follow-up that reflects what buyers care about.
+Imagine a small marketing team with a deep understanding of the customer, supported by AI workflows that carry that understanding across a much larger volume of execution.
 
-Depending on the systems available and the workflows approved for the engagement, agent-supported execution can assist with:
+An agent could research prospective accounts and prepare relevant information for salespeople. Another could coordinate follow-up after an industry event, using approved messaging informed by the company's positioning.
 
-- **Research and preparation:** Gathering information about target industries, accounts, buyer questions, and relevant topics for the sales team to review.
-- **Content and communications:** Preparing drafts of sales emails, articles, campaign materials, and follow-up messages based on approved positioning.
-- **Coordination and analysis:** Organizing repeatable marketing tasks, supporting CRM workflows, and assembling information for performance reviews.
+The agents share context and operate within an established strategy, creating continuity that would otherwise require significant manual effort.
 
-The point is to make good marketing work more consistent and more useful to sales. The tools may change, but the need for sound judgment remains.
+This is where I see the greatest potential: **a lean marketing operation with the capabilities of a much larger team.**
 
-## How do we keep AI-supported marketing accurate and trustworthy?
+## Why I use ourCMO.ai
 
-Trust is built through a working process. An agent can produce something polished that is still wrong for the customer, inconsistent with the brand, or unsupported by evidence. That is why I would want a business to understand its review practices as clearly as its technology stack.
+At Win-Win, I'm working with [ourCMO.ai](https://ourcmo.ai/), a platform developed by marketing professional Josh Webb.
 
-The [National Institute of Standards and Technology's guidance on generative AI risk management](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) emphasizes governance, evaluation, human oversight, and attention to the risks of AI-generated material. It is useful guidance for any organization introducing AI into its work, although referencing it doesn't mean a particular platform or engagement has been independently certified against it.
+What interests me about this technology is its potential to connect marketing strategy with execution.
 
-For Win-Win, the operating principles are straightforward:
+Rather than treating AI as a collection of individual productivity tools, we can build coordinated workflows around an understanding of the business.
 
-- **Clear direction.** The CEO and sales leadership agree on the marketing priorities before the work expands.
-- **Defined responsibilities.** Agents are assigned appropriate tasks within the tools, data access, and scope approved for the engagement.
-- **Human review.** Claims, positioning, customer-facing communications, and consequential decisions receive the level of human oversight the work requires.
-- **Accountable measurement.** We review results, business relevance, and spending rather than treating the volume of activity as evidence of success.
+The platform combines AI-powered strategy with specialized marketing agents and automation capabilities.
 
-The details of permissions, data handling, and approval workflows should be confirmed for each client and integration. No responsible partner should promise that AI output is error-free.
+My role as a fractional CMO is to establish the strategy and determine where those capabilities can create meaningful value.
 
-## Why does content strategy still matter in an AI-powered marketing model?
+I don't believe every marketing task needs an agent. And I certainly don't believe every company needs more content.
 
-AI can expand the volume of marketing content very quickly. That makes the quality of the underlying strategy even more consequential.
+The question is whether an activity contributes to stronger customer relationships and measurable business growth.
 
-At Win-Win, we organize AI-era content strategy around **Clarity, Structure, Consistency, and Trust**. Buyers should be able to understand what the company offers and find information organized around their questions. What they encounter through a website, an industry publication, a sales presentation, or an AI-generated answer should reinforce the same accurate story.
+## Can we trust AI agents?
 
-We apply those principles across **Paid, Earned, Shared, and Owned** marketing. The channel mix depends on the company's sales motion and growth priorities. You can read more about those services and the content framework on our [Services page](/services/).
+AI agents can produce convincing work even when the underlying information is wrong. They can misunderstand a market or make claims a company would never approve.
 
-An agent can assist with research, preparation, and coordination across those channels. It shouldn't be expected to invent the company's point of view or determine its commitments to customers.
+That's why human oversight remains essential.
 
-## Who makes the marketing decisions?
+For me, trust begins with accountability. Business leaders should know what their marketing operation is doing and why. There should be clear expectations for performance and appropriate review of customer-facing work.
 
-Your fractional CMO does, in partnership with the appropriate leaders in your business.
+The [National Institute of Standards and Technology's AI Risk Management Framework](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) offers useful guidance for managing the risks associated with generative AI.
 
-We begin by understanding the current marketing program, the sales process, and the resources already in place. Then we develop or strengthen the strategy, define the work, and establish an approved budget. Weekly check-ins and quarterly reviews keep the work connected to business priorities. Our [Approach page](/approach/) explains that engagement in more detail.
+AI may change how marketing gets done, but it doesn't change who is responsible for the results.
 
-I see the technology as a useful extension of the marketing function. It can reduce the effort required to prepare and coordinate work, making room for more thoughtful conversations about customers and growth.
+## What happens next?
 
-If you're deciding whether to add another marketing hire, you may also find [How a Leaner Marketing Team Can Fuel Growth](/blog/lean-b2b-marketing-fractional-ai/) and [What Right-Fit Marketing Actually Means](/blog/right-fit-marketing/) useful.
+I think 2027 will be an interesting year for marketing.
 
-The standard I would apply is simple: Can the business explain why the work is being done, who is responsible for it, and how it supports sales? When the answer is clear, AI agents can become a practical part of a well-led B2B marketing function.
+We're beginning to see a distinction between companies whose employees use AI individually to work faster and those developing agentic operations that coordinate work across the business.
 
-**[Book a 15 min call](https://calendar.app.google/KFmiJUCEcmPKtgGw7)** to discuss what that could look like for your business.
+A connected AI workforce can draw on a broader shared repository of information. That creates opportunities for continuity and efficiency that individual AI users may struggle to replicate.
+
+For B2B companies, I believe this could fundamentally change the economics of marketing.
+
+Smaller teams may be able to accomplish considerably more without the overhead of traditional marketing departments. Experienced leadership can concentrate on understanding the market and making the decisions that shape growth.
+
+That's the thinking behind [Win-Win's fractional CMO services](/services/).
+
+I believe the future of B2B marketing belongs to companies that combine the judgment of experienced leaders with the operational capabilities of AI.
+
+The technology is becoming increasingly powerful. What matters is how thoughtfully we put it to work.
+
+**[Explore Win-Win's fractional CMO services](/services/)** and how a leaner marketing model could work for your business.
