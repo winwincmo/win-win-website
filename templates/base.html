@@ -5,7 +5,9 @@
 <meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
 <meta name="theme-color" content="#17233b">
 <link rel="canonical" href="{{ canonical_url }}">
+{% block robots %}{% endblock %}
 <meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="{% block og_type %}website{% endblock %}">
 <meta property="og:title" content="{% block og_title %}{{ self.title() | striptags | trim }}{% endblock %}">
 <meta property="og:description" content="{% block og_description %}{{ self.description() | striptags | trim }}{% endblock %}">

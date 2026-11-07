@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block title %}{{ article.title }} | Win-Win{% endblock %}
-{% block description %}{{article.excerpt}}{% endblock %}
+{% block title %}{{ article.seo_title or (article.title ~ " | Win-Win") }}{% endblock %}
+{% block description %}{{ article.seo_description or article.excerpt }}{% endblock %}
 {% block og_type %}article{% endblock %}
-{% block og_image %}{% if article.absolute_image %}<meta property="og:image" content="{{ article.absolute_image }}"><meta name="twitter:image" content="{{ article.absolute_image }}">{% endif %}
+{% block og_image %}{% if article.absolute_image %}<meta property="og:image" content="{{ article.absolute_image }}"><meta name="twitter:image" content="{{ article.absolute_image }}">{% if article.image_alt %}<meta property="og:image:alt" content="{{ article.image_alt }}"><meta name="twitter:image:alt" content="{{ article.image_alt }}">{% endif %}{% endif %}
 <meta property="article:published_time" content="{{ article.date }}">
 <meta property="article:author" content="{{ site.author.url }}">{% endblock %}
 {% block twitter_card %}{% if article.absolute_image %}summary_large_image{% else %}summary{% endif %}{% endblock %}
