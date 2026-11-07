@@ -70,7 +70,7 @@ The team can move from insight to execution without handing the work through sev
 
 This is where I see an important difference between employees using AI individually to work faster and an organization building an integrated AI operation.
 
-Individual AI tools can improve personal productivity. An integrated system has the potential to retain shared business context and coordinate execution across functions. It can also preserve information from earlier work so future decisions benefit from what the organization has learned.
+Individual AI tools can improve personal productivity, but an integrated system has the potential to retain shared business context and coordinate execution across functions. It can also preserve information from earlier work so future decisions benefit from what the organization has learned.
 
 [McKinsey's 2025 State of AI research](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025) examines how organizations are redesigning workflows to capture more value from AI. I expect this distinction to become increasingly important in 2027 as businesses explore more coordinated agentic operations.
 
