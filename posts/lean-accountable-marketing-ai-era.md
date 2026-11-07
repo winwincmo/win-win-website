@@ -1,5 +1,5 @@
 ---
-title: "What Does Lean, Accountable Marketing Look Like in the AI Era?"
+title: "What Does Lean, Accountable Marketing Look Like in 2027?"
 date: "2026-11-06"
 category: "Marketing Leadership"
 excerpt: "After 25 years leading marketing teams, I've learned that an hour of strategic thinking can be worth more than an hour of production. AI gives lean teams a new kind of reach."
