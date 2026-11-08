@@ -13,7 +13,6 @@ image_credit_url: "https://unsplash.com/photos/group-of-people-talking-indoors-n
 keywords: "relationship-based sales, B2B marketing, AI visibility, remarketing, CRM communications, messaging strategy"
 ---
 
-*How an orchestrated messaging strategy keeps your strengths top of mind, anticipates buyer needs, and influences purchasing decisions.*
 
 If your business grows through relationships, you know the importance of showing up where those relationships develop. Industry conferences and professional associations create opportunities to meet prospective customers and earn their trust.
 
