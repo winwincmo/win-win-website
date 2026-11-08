@@ -6,10 +6,10 @@ category: "Strategy"
 seo_title: "What Is Right-Fit Marketing for B2B? | Win-Win"
 seo_description: "Right-fit marketing begins with how your company wins customers. Learn to prioritize work that supports sales without unnecessary overhead."
 published: true
-image: "/assets/working.jpeg"
-image_alt: "Colleagues reviewing notes and planning work around a table"
-image_credit: "Unsplash"
-image_credit_url: "https://unsplash.com/"
+image: "https://images.unsplash.com/photo-1730382625230-3756013c515c?auto=format&fit=crop&w=1600&q=82"
+image_alt: "A hand placing a wooden block into a neatly arranged structure, illustrating thoughtful choices and fit"
+image_credit: "Imagine Buddy / Unsplash"
+image_credit_url: "https://unsplash.com/photos/a-person-placing-a-block-into-a-pile-of-wooden-blocks-bTMTggEt5s4"
 ---
 
 A growing business can have plenty of marketing activity and still feel like something isn't working. Campaigns run, content gets published, and the sales team keeps asking for better leads.
