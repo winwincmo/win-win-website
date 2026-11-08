@@ -22,7 +22,7 @@ I believe the answer is leadership.
 
 AI agents are changing what's possible for lean marketing teams. They can carry out sophisticated workflows and maintain continuity across activities that once required considerable coordination among people.
 
-But someone still needs to understand the business well enough to decide what matters.
+With the right leadership, AI can become the engine of a more connected marketing operation, breaking down silos and driving consistent execution aligned with business strategy.
 
 ## Marketing begins with relationships
 
