@@ -41,4 +41,4 @@ A fractional CMO makes sense when marketing decisions keep landing on the founde
 
 A project specialist can be a good fit when you need a specific deliverable, like a new website. If you’re still deciding which customers to pursue and how to make your case to them, start with someone who can own that strategy and see it through. A fractional engagement gives you a way to bring in that leadership before you’re ready for a full-time executive. [Read *Fractional CMO or Marketing Team?*](/blog/fractional-cmo-or-marketing-team/)
 
-If you’re wondering where to start, bring one recent win and one deal you thought you’d win. We can look at what happened between the first conversation and the decision, and see where marketing could have made a difference. [Let’s talk at Win-Win Fractional CMO Services.](/#contact)
+If you’re wondering where to start, bring one recent win and one deal you thought you’d win. We can look at what happened between the first conversation and the decision, and see where marketing could have made a difference. Curious about fractional CMO services? [Contact Win-Win](/#contact)
